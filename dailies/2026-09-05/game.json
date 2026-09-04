@@ -1,0 +1,23 @@
+{
+  "title": "FlapLab Daily — This Is Fine.exe",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7,
+    "scrollSpeed": 3.2,
+    "birdSize": 62,
+    "pillarGap": 180,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#3a1a12",
+    "grassColor": "#c45a20"
+  },
+  "slot": "meme",
+  "story": "You are a calm dog. Walls of fire keep trying to ruin your living room. Everything is fine.",
+  "inspiration": "Evergreen 'this is fine' meme format — dog vs flames in a room that is absolutely not fine.",
+  "repostHints": ["r/memes", "r/me_irl", "r/FlappyLab"]
+}
