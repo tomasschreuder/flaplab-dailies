@@ -1,0 +1,23 @@
+{
+  "title": "FlapLab Daily — Ain't Him Coin Challenge",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.32,
+    "jumpForce": 7.2,
+    "scrollSpeed": 3.7,
+    "birdSize": 64,
+    "pillarGap": 165,
+    "pillarSpacing": 270,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#1a2a4a",
+    "grassColor": "#b31942"
+  },
+  "slot": "trending",
+  "story": "You are Trump's face. Gold coins and Congress try to stop you from minting a myth that ain't him.",
+  "inspiration": "Sep 4 2026 viral mockery of the US Mint commemorative coin portrait that looks nothing like Trump.",
+  "repostHints": ["r/nottheonion", "r/politicalhumor", "r/FlappyLab"]
+}
