@@ -1,0 +1,27 @@
+{
+  "title": "FlapLab Daily — LAMP Challenge",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7,
+    "scrollSpeed": 3.4,
+    "birdSize": 64,
+    "pillarGap": 175,
+    "pillarSpacing": 290,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#0a0a12",
+    "grassColor": "#3a3a50"
+  },
+  "slot": "story",
+  "story": "You are Mothman. The lamps keep calling. You know how this ends.",
+  "inspiration": "Dark fable / LAMP moth meme: cryptid moth vs glowing lamps on a night sky.",
+  "repostHints": [
+    "r/nosleep",
+    "r/creepy",
+    "r/FlappyLab"
+  ]
+}
