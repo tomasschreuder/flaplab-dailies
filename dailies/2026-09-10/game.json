@@ -1,0 +1,27 @@
+{
+  "title": "FlapLab Daily \u2014 Wolverine: Deadpool DLC",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7,
+    "scrollSpeed": 3.3,
+    "birdSize": 64,
+    "pillarGap": 175,
+    "pillarSpacing": 290,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#1a1520",
+    "grassColor": "#c9a227"
+  },
+  "slot": "recognisable",
+  "story": "You are Wolverine. Deadpool keeps posing in your flight path with heart hands.",
+  "inspiration": "Marvel's Wolverine (Sep 15 2026) hype \u2014 classic yellow suit vs Deadpool as antagonist pillars.",
+  "repostHints": [
+    "r/marvelstudios",
+    "r/gaming",
+    "r/FlappyLab"
+  ]
+}
