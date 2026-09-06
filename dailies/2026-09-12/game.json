@@ -1,0 +1,27 @@
+{
+  "title": "FlapLab Daily \u2014 Be ze baguette",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7,
+    "scrollSpeed": 3.2,
+    "birdSize": 60,
+    "pillarGap": 175,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#3a2a1a",
+    "grassColor": "#002395"
+  },
+  "slot": "country",
+  "story": "You are a baguette. The Eiffel Tower is trying to stop you.",
+  "inspiration": "Evergreen country-food meme: France baguette vs Eiffel on tricolore sky.",
+  "repostHints": [
+    "r/france",
+    "r/food",
+    "r/FlappyLab"
+  ]
+}
