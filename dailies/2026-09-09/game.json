@@ -1,0 +1,27 @@
+{
+  "title": "FlapLab Daily \u2014 Moonwalk Simulator",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.2,
+    "jumpForce": 7,
+    "scrollSpeed": 2.8,
+    "birdSize": 66,
+    "pillarGap": 200,
+    "pillarSpacing": 320,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#2a2a32",
+    "grassColor": "#6e6e78"
+  },
+  "slot": "fun",
+  "story": "You are an astronaut. American flags keep planting themselves in your flight path.",
+  "inspiration": "Evergreen fun: moon low-g astronaut vs flag pillars on a starfield.",
+  "repostHints": [
+    "r/space",
+    "r/interestingasfuck",
+    "r/FlappyLab"
+  ]
+}
