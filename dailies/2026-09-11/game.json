@@ -1,0 +1,27 @@
+{
+  "title": "FlapLab Daily \u2014 Orange Loaf Airborne",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7,
+    "scrollSpeed": 3.1,
+    "birdSize": 62,
+    "pillarGap": 185,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#8b5a2b",
+    "grassColor": "#c47840"
+  },
+  "slot": "cat",
+  "story": "You are an orange tabby. Yarn balls keep stacking in your living room flight path.",
+  "inspiration": "Evergreen cat day: orange tabby vs colorful ball stack in a living room.",
+  "repostHints": [
+    "r/cats",
+    "r/aww",
+    "r/FlappyLab"
+  ]
+}
