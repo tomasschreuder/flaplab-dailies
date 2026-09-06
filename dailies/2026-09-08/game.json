@@ -1,0 +1,27 @@
+{
+  "title": "FlapLab Daily \u2014 Hey, Can I Have This?",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7,
+    "scrollSpeed": 3.2,
+    "birdSize": 64,
+    "pillarGap": 180,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#6b4423",
+    "grassColor": "#c44a4a"
+  },
+  "slot": "meme",
+  "story": "You are a teddy. Baby bottles keep asking if they can have this. The answer is no.",
+  "inspiration": "Late Aug\u2013Sep 2026 viral Ted 'Hey, can I have this?' brainrot meme format (still image readable).",
+  "repostHints": [
+    "r/memes",
+    "r/me_irl",
+    "r/FlappyLab"
+  ]
+}
