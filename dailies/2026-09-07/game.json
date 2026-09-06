@@ -1,0 +1,27 @@
+{
+  "title": "FlapLab Daily \u2014 Hail Mary Challenge",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.3,
+    "jumpForce": 7.2,
+    "scrollSpeed": 3.6,
+    "birdSize": 58,
+    "pillarGap": 160,
+    "pillarSpacing": 270,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#2d6b1f",
+    "grassColor": "#3a9e2a"
+  },
+  "slot": "trending",
+  "story": "You are a football. Goalposts keep trying to stop your miracle Hail Mary.",
+  "inspiration": "Sep 6 2026 X trends: Michigan/Clemson college football and Hail Mary chatter dominating US Twitter.",
+  "repostHints": [
+    "r/CFB",
+    "r/sports",
+    "r/FlappyLab"
+  ]
+}
