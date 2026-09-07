@@ -26,7 +26,9 @@ Add a host here the first time it burns a morning (cron skip / opaque crop).
 
 Known-bad (update as you learn):
 
-- _(none yet)_
+- `nicepng.com` — often wrong subject / fake transparency
+- `pngset.com` — checkerboard baked into pixels
+- `pngimg.com` — sometimes misnamed or wrong subject; verify before using
 
 ## Topics / repeats
 
