@@ -25,7 +25,7 @@ If a package looks like a cute themed mini-game (cartoon pitch, generic astronau
 1. Read `README.md`, `BOT.md` (if present), `do-not-use.md`, and `evergreen.md` at the repo root.
 2. Compute **tomorrow** in `Europe/Amsterdam` as date `D` (`YYYY-MM-DD`). The seven targets are `D+0` … `D+6`. Do **not** write `D+7` or today.
 3. Read existing `dailies/*/game.json` (last 21 days is enough) for anti-repeat **and** to see which of the seven folders are already complete.
-4. **One culture pass** for the whole week (section 3): X trending, a few slot-specific subs, r/OutOfTheLoop. Park 2–3 perishable ideas for `trending` / `meme` / `political`. Do not open 21 tabs per day.
+4. **One culture pass** for the whole week (section 3): X trending, a few slot-specific **outside** subs, r/OutOfTheLoop. Park 2–3 perishable ideas for `trending` / `meme` / `political`. Do not open 21 tabs per day. **Never open r/FlappyLab** (or any FlappyLab community feed) for research, inspiration, or “what’s popular on our sub.”
 5. For each of the seven dates **in order**, `D+0` first:
    - If that folder already has a complete package (`game.json` + bird + pillar + background files that exist on disk), **skip it**. Never overwrite a finished day.
    - Assign the slot for that offset (section 2).
@@ -165,7 +165,9 @@ If you skip a date because it is already complete, **do not slide slots**. `D+3`
 
 If a slot is dry (no assets **and** no real trend), borrow another slot’s flavour rather than shipping a hollow version. Write the `slot` you actually shipped, and say so in `inspiration`.
 
-### Anti-repeat
+### Anti-repeat (kill-list only — not inspiration)
+
+Read the last ~21 days of `dailies/*/game.json` **only to avoid clones**. Do **not** remix them, “do a new take,” or treat past FlapLab Dailies as a concept farm. Outside culture → new joke. Old dailies → veto list.
 
 Do not reuse, in the last 14 days:
 
@@ -174,17 +176,28 @@ Do not reuse, in the last 14 days:
 - The same country
 - The same gag structure with a coat of paint (“X but flappy” with default pipes)
 
+Also do not re-ship the tired house evergreens just because assets are easy (baguette/Eiffel, generic moon astronaut, generic orange loaf + yarn) unless the **outside** scout actually surfaced that joke *this week*.
+
 Cats once a week is the point. Two cat days in a row is a bug.
+
+### Never scout your own sub
+
+**Do not browse, search, scrape, or “check” r/FlappyLab** (hot, new, top, search, Devvit gallery, player-made games) when designing. Community games live there; looking will bias you toward copies.
+
+- Inspiration sources: X, news, sports, meme subs, fandoms, `evergreen.md` — **not** r/FlappyLab.
+- `r/FlappyLab` may appear only in `repostHints` as a later cross-post destination.
+- If you somehow already know a joke is a known community game on the sub, pick a different concept. Do not open the sub to “verify.”
 
 ## 3. Where to get live inspiration
 
-One culture pass per weekly run, then 3 concepts **per remaining day**. Spend minutes, not an hour. Prioritise **stills people already share** (news photos, team logos, politician faces, meme templates with a clear subject). Evergreen slots (`cat`, `fun`, `recognisable`, `country`, `story`) do not need a fresh Reddit dive if the first pass found nothing — use `evergreen.md`, but still ship photo/logo cutouts when you can, not cartoon clipart.
+One culture pass per weekly run, then 3 concepts **per remaining day**. Spend minutes, not an hour. Prioritise **stills people already share outside FlappyLab** (news photos, team logos, politician faces, meme templates with a clear subject). Evergreen slots (`cat`, `fun`, `recognisable`, `country`, `story`) do not need a fresh Reddit dive if the first pass found nothing — use `evergreen.md`, but still ship photo/logo cutouts when you can, not cartoon clipart. Skip any evergreen that duplicates a gag you already shipped in the last 14 days.
 
 ### Always (all slots)
 
 - **X/Twitter trending + Search**, last 24h. This is your unfair advantage. Look for jokes people are already making, not raw outrage.
 - **r/OutOfTheLoop** hot — if you don’t get the joke, you cannot theme a game.
-- Last 14 FlapLab dailies — house style, do not clone.
+- Last ~14–21 FlapLab **dailies in the repo** — **kill-list only** (titles / protagonists / franchises / gag shapes to avoid). Not a moodboard. Not “house style to remix.”
+- **Never** open r/FlappyLab for any of the above.
 
 ### Slot-specific sources (Hot + Rising, ignore Controversial)
 
@@ -248,17 +261,16 @@ A concept is usable only if you can fill this in one breath:
 
 **0.3s recognition test:** show the three sprites with no title. If a friend who follows the news / that fandom wouldn’t clock it, scrap the concept.
 
-Examples of the house style (do not copy these; copy the *shape*):
+Examples of the *shape* (patterns only — do **not** re-ship these exact gags just because they worked before):
 
-- Rugby final: **player face or team crest** / goalposts or rival crest / **real stadium photo** (not a cartoon pitch)
-- Viral coin / politician gag: **real face cutout** / commemorative object as pillars / flag or press-backdrop photo
-- Astronaut meme / **low gravity** only when space *is* the circulating joke — real suit photo, not clipart rocket
-- Fighter jet / bomb GIFs / terrain / **fly mode + high speed** when that craft is in the discourse
+- Rugby/football final: **player face or team crest** / goalposts or rival crest / **real stadium photo** (not a cartoon pitch) — only when that match is actually trending
+- Viral politician / product gag: **real face cutout** / object-as-pillars / flag or press-backdrop photo
+- Space / jet physics **only when that meme is circulating this week** — real suit or craft photo, not default “astronaut day”
 - Political leader / opposition as pillars / flag or podium **photo**
-- KFC, Breaking Bad, Sopranos, MLP, Terraria — instant-read **faces / logos**, not cute redraws
-- Country: news-hook countryball or food + real landmark/flag sky
-- Cats (real photo loaf). Countryballs.
-- Dark fable: hero bird, villain pillars — still iconic silhouettes
+- Franchise face + matching world (KFC, Breaking Bad, Sopranos, MLP, Terraria, etc.) when that IP is in the discourse
+- Country **in the news** as countryball/food + real landmark/flag sky — not a default France/baguette rerun
+- Cat day: a **specific** pet meme or photo cutout, not the same orange-loaf-vs-yarn every week
+- Dark fable: hero bird, villain pillars — new fable, not a rerun of last month’s cryptid — still iconic silhouettes
 
 Titles that click: **meme captions**, short punch, optional `Challenge` / `HARD` / `Keep Low`, a pun or fake accent, mock-serious (`.exe`). Prefer caption energy (`Ain't Him`, `This Is Fine.exe`) over generic game names (`Moonwalk Simulator` with no cultural hook). Do not write an essay title.
 
@@ -494,6 +506,7 @@ Image generation: only as a last resort for a **simple silhouette** (countryball
 - [ ] Slot matches the **offset table** (or inspiration explains a deliberate switch)
 - [ ] Title ≤ 80 chars, unique vs the other six this week **and** the last 14 days, starts with `FlapLab Daily — ` (caption energy, not generic game-name)
 - [ ] **0.3s meme test:** sprites alone would screenshot as a joke someone following the news/fandom gets
+- [ ] Concept came from **outside** culture (or a non-overlapping evergreen) — you did **not** open r/FlappyLab, and you did not remix a recent official daily
 - [ ] Art is photo/logo/face-first when the slot is news/sports/politics/meme — not cartoon clipart of the same idea
 - [ ] Bird + pillar have real alpha; background is png/gif (jpeg converted)
 - [ ] No nudity, drugs, or gore in sprites / title / joke
