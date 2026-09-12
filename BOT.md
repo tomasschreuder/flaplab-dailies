@@ -25,12 +25,12 @@ If a package looks like a cute themed mini-game (cartoon pitch, generic astronau
 1. Read `README.md`, `BOT.md` (if present), `do-not-use.md`, and `evergreen.md` at the repo root.
 2. Compute **tomorrow** in `Europe/Amsterdam` as date `D` (`YYYY-MM-DD`). The seven targets are `D+0` … `D+6`. Do **not** write `D+7` or today.
 3. Read existing `dailies/*/game.json` (last 21 days is enough) for anti-repeat **and** to see which of the seven folders are already complete.
-4. **One culture pass** for the whole week (section 3): X trending, a few slot-specific **outside** subs, r/OutOfTheLoop. Park 2–3 perishable ideas for `trending` / `meme` / `political`. Do not open 21 tabs per day. **Never open r/FlappyLab** (or any FlappyLab community feed) for research, inspiration, or “what’s popular on our sub.”
+4. **Outside scout report first** (section 3.1) — **before** any `dailies/` folder. Build a table of **8–10** outside hits. No shortlist → do not start packaging. **Never open r/FlappyLab** (or any FlappyLab community feed) for research, inspiration, or “what’s popular on our sub.”
 5. For each of the seven dates **in order**, `D+0` first:
    - If that folder already has a complete package (`game.json` + bird + pillar + background files that exist on disk), **skip it**. Never overwrite a finished day.
    - Assign the slot for that offset (section 2).
-   - Draft **3** concepts for that slot. Search assets for all 3. Pick the shippable one.
-   - Tune settings (section 6). Write the folder. Self-check (section 9).
+   - Pull **3** candidate concepts for that slot from the scout report (or a slot-ok evergreen only where section 3.2 allows). **Asset-first:** search cutouts for all 3; any concept without a real transparent face/logo/object for the bird **dies** before you design settings.
+   - Pick the shippable one. Tune settings (section 6). Write the folder. Self-check (section 9).
    - `git add` **only** that date folder, commit `Add FlapLab daily YYYY-MM-DD`, **`git push origin main`**.
    - Then start the next date. Do not batch seven unpushed folders — a crash on day 5 would lose the week.
 6. If a day’s art fails, use the fallback ladder (section 8) for **that date only**, then continue the week. Never commit a fake / opaque game. A hole in the queue is better than a skipped morning from bad alpha.
@@ -190,7 +190,32 @@ Cats once a week is the point. Two cat days in a row is a bug.
 
 ## 3. Where to get live inspiration
 
-One culture pass per weekly run, then 3 concepts **per remaining day**. Spend minutes, not an hour. Prioritise **stills people already share outside FlappyLab** (news photos, team logos, politician faces, meme templates with a clear subject). Evergreen slots (`cat`, `fun`, `recognisable`, `country`, `story`) do not need a fresh Reddit dive if the first pass found nothing — use `evergreen.md`, but still ship photo/logo cutouts when you can, not cartoon clipart. Skip any evergreen that duplicates a gag you already shipped in the last 14 days.
+Spend minutes, not an hour — but **structure the minutes**. Prioritise **stills people already share outside FlappyLab** (news photos, team logos, politician faces, meme templates with a clear subject). Primary diet: **X → sports finals → news stills → meme/fandom stills**. Reddit is supporting, not the whole meal. Never touch r/FlappyLab.
+
+### 3.1 Scout report (mandatory, before any day folder)
+
+Build **one** shortlist for the whole week — **8–10 rows** — then stop scouting and start packaging from that list.
+
+Each row:
+
+| # | Source (URL or “X trend: …”) | Date (approx) | One-line gag | Bird / pillar / sky guess | Cutout exists? (Y/N) | Best slots |
+|---|---|---|---|---|---|---|
+
+Rules:
+
+- At least **4** rows must be perishable (this week’s headlines, sports, viral stills).
+- Mark `Cutout exists?` honestly after a quick search. Prefer rows marked **Y** when assigning days.
+- Keep the table in your working notes for the run (you do not need to commit it). If you cannot fill 8 rows from outside culture, widen sources — do **not** pad with FlapLab house classics or open the sub.
+- **No scout report → no packages.** Do not invent day-1 while “you’ll scout later.”
+
+### 3.2 Perishable vs evergreen
+
+|Slots|Outside hook required?|Evergreen allowed?|
+|---|---|---|
+|`trending`, `meme`, `political`|**Yes.** `inspiration` must cite a dated outside hook (URL and/or “X/headline + date”).|**No.** Skip the date or steal a *different* outside gag from the scout table.|
+|`fun`, `recognisable`, `cat`, `country`, `story`|Prefer yes.|Yes, from `evergreen.md`, but still photo/logo cutouts; skip any evergreen that overlaps the last 14 dailies or a scout row you already used.|
+
+If `fun` would only be “generic moon astronaut” with no outside hook, borrow another scout row’s flavour or skip — do not ship filler physics cosplay.
 
 ### Always (all slots)
 
@@ -255,11 +280,17 @@ One culture pass per weekly run, then 3 concepts **per remaining day**. Spend mi
 
 ### What “good inspiration” looks like
 
-A concept is usable only if you can fill this in one breath:
+**Meme math** (all four legs required):
 
-> You are **[bird]**. You are dodging **[pillar]**. You are doing it in **[place]**. The joke is **[why this is funny / why someone who saw the news gets it in 0.3s]**.
+> **[face/logo from this week’s moment]** × **[antagonist from the same story]** × **[photo of the place it happened]** × **[caption title]**
+
+A concept is usable only if you can also fill this in one breath:
+
+> You are **[bird]**. You are dodging **[pillar]**. You are doing it in **[place]**. The joke is **[why this is funny / why someone who saw the news gets it in 0.3s]**. Source: **[dated outside hook]**.
 
 **0.3s recognition test:** show the three sprites with no title. If a friend who follows the news / that fandom wouldn’t clock it, scrap the concept.
+
+If any leg is generic clipart (cartoon pitch, stock rocket, vague loaf) while a real still exists for the same joke, the concept fails.
 
 Examples of the *shape* (patterns only — do **not** re-ship these exact gags just because they worked before):
 
@@ -304,6 +335,15 @@ Titles that click: **meme captions**, short punch, optional `Challenge` / `HARD`
 
 If the theme is the moon and gravity feels like Earth, you failed. If the theme is a jet and it still pecks like a bird, you failed. If the theme is a cat loaf and it’s a brutal speedrun, you also failed — cute slots should be readable.
 
+### Design formula (lock this before settings)
+
+1. Pick the scout row (or allowed evergreen).
+2. Name bird / pillar / sky in one line (meme math).
+3. Write the caption-style title (`FlapLab Daily — …`).
+4. **Only then** open the asset pipeline (section 5) and settings (section 6).
+
+Do not tune gravity for a joke you have not sourced.
+
 ### Taste rules
 
 - Instantly readable without playing — **meme first, game second.**
@@ -318,7 +358,9 @@ If the theme is the moon and gravity feels like Earth, you failed. If the theme 
 ## 5. Asset pipeline (do this before you fall in love with a concept)
 
 Wrong order: joke → commit → “I’ll find a PNG later.”  
-Right order: **3 jokes → search all of them → pick the one you can actually build.**
+Right order: **scout row → 3 jokes → find bird cutouts for all 3 → kill any with no face/logo/object alpha → then pillars/sky → pick the one you can actually build.**
+
+**Asset-first gate:** if you cannot find a real transparent **bird** (face, logo, or clear object cutout) for a concept, that concept is dead — even if the caption is funny. Do not “placeholder” with cartoon clipart when the slot is news/sports/politics/meme. Pillars and sky can be analogous substitutes; the bird cannot be a vague stand-in.
 
 ### Search queries that work
 
@@ -495,18 +537,22 @@ Try in order:
    - country: countryball of a country in the news + flag sky
    - fun: only if you still have a meme hook — real craft/astronaut cutout + planet/flag + starfield, low-g; else borrow `recognisable`
    - recognisable: MLP / Portal core / Garfield / a game protagonist with matching biome pillars
-   - meme/trending: if the trend is un-illustratable, ship a **recognisable** evergreen and say so in `inspiration`
+   - meme/trending/political: if the trend is un-illustratable, take **another outside row** from the scout table (different gag). Do **not** ship a silent evergreen on perishable slots. If nothing outside works, **skip that date**.
 5. **Skip that date and continue the week.** Do not invent extra dates. Do not commit an opaque JPEG bird. Do not generate a “transparent” PNG that is actually a white rectangle.
 
 Image generation: only as a last resort for a **simple silhouette** (countryball, loaf cat, baguette) with a true transparent background, single subject, no text. If the model cannot give real alpha, don’t use it.
 
 ## 9. Self-check before each day’s push
 
+- [ ] Week started from an **8–10 row outside scout report** (section 3.1), not from a blank page
 - [ ] Folder date is one of `D` … `D+6` (tomorrow through +6 Amsterdam), never today, never +7
 - [ ] Slot matches the **offset table** (or inspiration explains a deliberate switch)
+- [ ] If slot is `trending` / `meme` / `political`: `inspiration` has a **dated outside hook**; no evergreen filler
 - [ ] Title ≤ 80 chars, unique vs the other six this week **and** the last 14 days, starts with `FlapLab Daily — ` (caption energy, not generic game-name)
+- [ ] **Meme math** complete (face/logo × same-story antagonist × place photo × caption)
 - [ ] **0.3s meme test:** sprites alone would screenshot as a joke someone following the news/fandom gets
-- [ ] Concept came from **outside** culture (or a non-overlapping evergreen) — you did **not** open r/FlappyLab, and you did not remix a recent official daily
+- [ ] **Asset-first:** bird cutout existed before settings; failed cutout concepts were killed
+- [ ] Concept came from **outside** culture (or a non-overlapping evergreen on a non-perishable slot) — you did **not** open r/FlappyLab, and you did not remix a recent official daily
 - [ ] Art is photo/logo/face-first when the slot is news/sports/politics/meme — not cartoon clipart of the same idea
 - [ ] Bird + pillar have real alpha; background is png/gif (jpeg converted)
 - [ ] No nudity, drugs, or gore in sprites / title / joke
@@ -523,6 +569,6 @@ Image generation: only as a last resort for a **simple silhouette** (countryball
 
 You are making a **viral meme** someone will play for 20 seconds, screenshot, and drop in a group chat.
 
-Optimise for: **instant cultural recognition, one joke, photo/logo-real art that survives alpha-crop, physics that sells the joke.**
+Optimise for: **a forced outside scout, instant cultural recognition, one joke, photo/logo-real art that survives alpha-crop, physics that sells the joke.**
 
-Do not optimise for: cute themed mini-games, cartoon clipart worlds, embedding scores, 20-meme lists, or a perfect forecast of Reddit. If it wouldn’t land as a still on the timeline, it isn’t the daily — even if it “plays fine.”
+Do not optimise for: cute themed mini-games, cartoon clipart worlds, embedding scores, 20-meme lists, or a perfect forecast of Reddit. If you skipped the scout report or the perishable day has no dated outside hook, you are doing it wrong — even if it “plays fine.”
