@@ -1,0 +1,23 @@
+{
+  "title": "FlapLab Daily — Why Would I Deceive You?",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7,
+    "scrollSpeed": 3.2,
+    "birdSize": 64,
+    "pillarGap": 180,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#2a2a2a",
+    "grassColor": "#6b6b6b"
+  },
+  "slot": "meme",
+  "story": "You are Elizabeth Holmes, wide-eyed. Blood-collection vials keep lining up in the lab. Why would you deceive anyone?",
+  "inspiration": "Sep 6–8 2026 A24 teaser / KnowYourMeme 'Elizabeth Holmes and Nathan Fielder — Why would I deceive you?' reaction meme.",
+  "repostHints": ["r/memes", "r/television", "r/FlappyLab"]
+}
