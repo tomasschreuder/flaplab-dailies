@@ -1,0 +1,23 @@
+{
+  "title": "FlapLab Daily — The Fly Brain Can Play",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7,
+    "scrollSpeed": 3.3,
+    "birdSize": 62,
+    "pillarGap": 180,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#12082a",
+    "grassColor": "#6a2cff"
+  },
+  "slot": "trending",
+  "story": "You are a fruit fly whose whole brain just got mapped. Beat Saber blocks keep slicing your flight path in a neon arena.",
+  "inspiration": "Sep 8 2026 KnowYourMeme + X @_lyraaaa_ 'the fly brain can play Beat Saber' (~22M views) after fruit-fly connectome simulations hooked to games.",
+  "repostHints": ["r/science", "r/beatsaber", "r/FlappyLab"]
+}
