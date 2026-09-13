@@ -1,0 +1,23 @@
+{
+  "title": "FlapLab Daily — Remember November 2026",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.22,
+    "jumpForce": 7,
+    "scrollSpeed": 2.9,
+    "birdSize": 66,
+    "pillarGap": 200,
+    "pillarSpacing": 320,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#2a3a48",
+    "grassColor": "#a8c8d8"
+  },
+  "slot": "fun",
+  "story": "You are a polar bear singing Remember November. Calendar icebergs keep floating into your cold, floaty flight path.",
+  "inspiration": "Early Sep 2026 meme.com 'Remember November 2026 is coming' AI polar-bear singalong; physics punchline is arctic low-g float.",
+  "repostHints": ["r/memes", "r/me_irl", "r/FlappyLab"]
+}
