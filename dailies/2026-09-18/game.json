@@ -1,0 +1,23 @@
+{
+  "title": "FlapLab Daily — Wet Cat Challenge",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7,
+    "scrollSpeed": 3.1,
+    "birdSize": 62,
+    "pillarGap": 185,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#8a8a90",
+    "grassColor": "#c8c8d0"
+  },
+  "slot": "cat",
+  "story": "You are a soaked cat. Rubber ducks keep bobbing into your bathroom flight path. Never again.",
+  "inspiration": "Evergreen cat chaos: wet-cat photo cutout vs rubber-duck pillars in a real bathroom — not the orange-loaf-vs-yarn rerun.",
+  "repostHints": ["r/cats", "r/StartledCats", "r/FlappyLab"]
+}
