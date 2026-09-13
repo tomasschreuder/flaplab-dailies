@@ -1,0 +1,23 @@
+{
+  "title": "FlapLab Daily — Thoughts on Lanterns?",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7,
+    "scrollSpeed": 3.3,
+    "birdSize": 64,
+    "pillarGap": 180,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#1a1a28",
+    "grassColor": "#00aa55"
+  },
+  "slot": "recognisable",
+  "story": "You are the Green Lantern logo. Glowing lanterns keep lining the night city street. Thoughts?",
+  "inspiration": "Sep 8–10 2026 KnowYourMeme 'Thoughts on Lanterns' Green Lantern / Lanterns 2026 TV promo edits circulating.",
+  "repostHints": ["r/television", "r/DCcomics", "r/FlappyLab"]
+}
