@@ -69,13 +69,13 @@ Invalid JSON, missing files, non-PNG/GIF magic bytes, or bird/pillar **without r
 | `settings` | Optional. Only the keys above; others dropped. Missing keys → engine defaults |
 | `slot` `story` `inspiration` `repostHints` | Optional for the game server (ignored). **Required for the bot** so a later cross-poster can work |
 
-### Settings — defaults and bot target band
+### Settings — clamps, excitement band, sanitizer
 
 Engine defaults: gravity `0.36`, jumpForce `6`, scrollSpeed `3.5`, birdSize `65`, pillarGap `175`, pillarSpacing `280`, `pillarProportional` true, `pillar2OnTop` false, `birdControlMode` `"flap"`, ground `#4d2d08`, grass `#00a822`.
 
 Server clamp: gravity 0.02–1.2, jumpForce 2–20, scrollSpeed 0.5–12, birdSize 10–180, pillarGap 40–420, pillarSpacing 80–700, mode `"flap"` \| `"fly"`, colors `#RRGGBB`.
 
-Bot should stay ~±30% of defaults unless slot is `fun` (space / jet). Flap apex `jumpForce² / (2 × gravity)` target **80–180**. Fly: `jumpForce ≥ 4.8 × gravity`. Gap ~**2.5×** birdSize. `pillarSpacing / scrollSpeed` ≥ **40**. Do not copy defaults blindly (default apex is too low).
+Soft ±30% of defaults is **demoted** — it caused boring sameness (`0.28/7/3.2/~62/~180`). Prefer the **excitement band** nearer sanitizer-safe clamp edges: gravity ~0.12–0.55, jumpForce ~6.5–12, scrollSpeed ~2.6–5.5, birdSize ~48–90 (wider when theme *is* physics). Absolute clamps: gravity 0.02–1.2, jumpForce 2–20, scrollSpeed 0.5–12, birdSize 10–180, pillarGap 40–420, pillarSpacing 80–700. Flap apex `jumpForce² / (2 × gravity)` target **80–180** (prefer **100–160**). Fly: `jumpForce ≥ 4.8 × gravity`; jets use `fly`. Gap ~**2.5×** birdSize. `pillarSpacing / scrollSpeed` ≥ **40**. Across days, ≥3 of {gravity, jumpForce, scrollSpeed, birdSize, pillarGap, birdControlMode} must differ meaningfully. Do not copy defaults blindly (default apex is too low).
 
 ## Images
 

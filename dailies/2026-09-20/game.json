@@ -1,15 +1,15 @@
 {
-  "title": "FlapLab Daily — Kyiv Winter HARD",
+  "title": "FlapLab Daily \u2014 Kyiv Winter HARD",
   "bird": "bird.png",
   "pillar": "pillar.png",
   "background": "sky.png",
   "settings": {
-    "gravity": 0.32,
-    "jumpForce": 7.3,
-    "scrollSpeed": 3.8,
-    "birdSize": 60,
-    "pillarGap": 160,
-    "pillarSpacing": 265,
+    "gravity": 0.55,
+    "jumpForce": 12.0,
+    "scrollSpeed": 5.5,
+    "birdSize": 48,
+    "pillarGap": 125,
+    "pillarSpacing": 250,
     "pillarProportional": true,
     "pillar2OnTop": false,
     "birdControlMode": "flap",
@@ -18,6 +18,10 @@
   },
   "slot": "political",
   "story": "You are Zelenskyy. Missiles keep striking as Russia tries to kill Ukraine's economy and Kyiv braces for a harsh winter.",
-  "inspiration": "Guardian Ukraine war briefing Sep 12–13 2026: nine killed in Russian strikes; Zelenskyy says Russia wants to kill Ukrainian economy as Kyiv braces for winter.",
-  "repostHints": ["r/worldnews", "r/ukraine", "r/FlappyLab"]
+  "inspiration": "Guardian Ukraine war briefing Sep 12\u201313 2026: nine killed in Russian strikes; Zelenskyy says Russia wants to kill Ukrainian economy as Kyiv braces for winter.",
+  "repostHints": [
+    "r/worldnews",
+    "r/ukraine",
+    "r/FlappyLab"
+  ]
 }

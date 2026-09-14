@@ -1,15 +1,15 @@
 {
-  "title": "FlapLab Daily — Sweden Votes.exe",
+  "title": "FlapLab Daily \u2014 Sweden Votes.exe",
   "bird": "bird.png",
   "pillar": "pillar.png",
   "background": "sky.png",
   "settings": {
-    "gravity": 0.28,
-    "jumpForce": 7,
-    "scrollSpeed": 3.2,
-    "birdSize": 64,
-    "pillarGap": 180,
-    "pillarSpacing": 300,
+    "gravity": 0.42,
+    "jumpForce": 10.0,
+    "scrollSpeed": 4.5,
+    "birdSize": 54,
+    "pillarGap": 140,
+    "pillarSpacing": 260,
     "pillarProportional": true,
     "pillar2OnTop": false,
     "birdControlMode": "flap",
@@ -19,5 +19,9 @@
   "slot": "country",
   "story": "You are Swedenball. Ballot boxes keep blocking the way as election day decides if the far-right enters government.",
   "inspiration": "Reuters Sep 13 2026: Swedes vote in election that could usher far-right into government; countryball vs real VAL ballot-box cutout on Swedish flag sky.",
-  "repostHints": ["r/europe", "r/polandball", "r/FlappyLab"]
+  "repostHints": [
+    "r/europe",
+    "r/polandball",
+    "r/FlappyLab"
+  ]
 }

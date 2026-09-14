@@ -417,96 +417,123 @@ pillar2OnTop false | birdControlMode flap
 groundColor #4d2d08 | grassColor #00a822
 ```
 
-Stay within **~±30% of defaults** unless the slot is `fun` and the theme *is* the physics.
+### Soft ±30% is demoted — it caused boring sameness
 
-±30% box (your normal playground):
+Do **not** treat ~±30% of defaults as the default ceiling. Soft ±30% nudges produced near-identical `0.28 / 7 / 3.2 / ~62 / ~180` days. Prefer the **edges of the sanitizer-safe region**, nearer the absolute clamps, while still satisfying the invariants below.
 
-| key | min | default | max |
-|---|---:|---:|---:|
-| gravity | 0.25 | 0.36 | 0.47 |
-| jumpForce | 4.2 | 6.0 | 7.8 |
-| scrollSpeed | 2.5 | 3.5 | 4.6 |
-| birdSize | 46 | 65 | 85 |
-| pillarGap | 123 | 175 | 228 |
-| pillarSpacing | 196 | 280 | 364 |
+### Absolute server clamps (hard limits)
 
-The server also **clamps** to absolute limits (gravity 0.02–1.2, jump 2–20, speed 0.5–12, bird 10–180, gap 40–420, spacing 80–700) and then **rewrites** unplayable combos. If you ship nonsense, every daily will get flattened toward the same safe blob. Do the job yourself.
+| key | min | max |
+|---|---:|---:|
+| gravity | 0.02 | 1.2 |
+| jumpForce | 2 | 20 |
+| scrollSpeed | 0.5 | 12 |
+| birdSize | 10 | 180 |
+| pillarGap | 40 | 420 |
+| pillarSpacing | 80 | 700 |
+
+After clamping, the server **rewrites** unplayable combos. If you ship nonsense, every daily gets flattened toward the same safe blob. Do the job yourself.
+
+### Excitement band (use more of the clamp range, stay sanitizer-safe)
+
+Work inside this playground for most days — wider than soft ±30%, still inside clamps and sanitizer-safe when invariants hold:
+
+| key | excitement band | notes |
+|---|---|---|
+| gravity | **0.12 – 0.55** | low-g for space/float; high-g for heavy/mean |
+| jumpForce | **6.5 – 12** | pair with gravity for apex 100–160 |
+| scrollSpeed | **2.6 – 5.5** | jets/politics can push toward 5–6 |
+| birdSize | **48 – 90** | chunky cats vs slim countryballs |
+| pillarGap | **125 – 230** | keep ~2.5× birdSize |
+| pillarSpacing | **240 – 360** | keep spacing/speed ≥ 40 |
+
+You may go beyond the band toward the absolute clamps when the theme *is* the physics (extreme low-g, fly jet, sadistic political), but **never** break the invariants — the sanitizer will undo the joke.
+
+### Day-to-day uniqueness (hard rule)
+
+**Ban** shipping consecutive (or near-consecutive) identical soft defaults — especially the stale tuple `gravity 0.28 / jumpForce 7 / scrollSpeed 3.2 / birdSize ~62 / pillarGap ~180`.
+
+Across consecutive days, **≥ 3** of `{gravity, jumpForce, scrollSpeed, birdSize, pillarGap, birdControlMode}` must **differ meaningfully** (not a 0.01 nudge). Same mode + same numbers = failed cookbook.
 
 ### Invariants you must satisfy (flap)
 
 Flap apex in pixels ≈ `jumpForce² / (2 × gravity)`.
 
-Target **80–180**. Under ~70 the server will lower gravity / raise jump. Over 280 it will kill the moon-jump.
+Target **80–180**, prefer **100–160**. Under ~70 the sanitizer softens (lowers gravity / raises jump). Over ~280 it kills the moon-jump.
 
-Default 6² / (2×0.36) = **50**, which is actually *low* for the sanitizer. Do **not** copy defaults blindly.
+Default `6² / (2×0.36) = 50` is *low* for the sanitizer. Do **not** copy engine defaults blindly.
 
-Safe starting pairs inside the 30% box:
+Example apex-safe pairs (prefer these over soft ±30%):
 
-- Standard: `gravity 0.28`, `jumpForce 7` → apex ≈ 88
-- A bit punchier: `gravity 0.32`, `jumpForce 8` is slightly above +30% jump — only for `fun`
-- Inside box floaty: `gravity 0.25`, `jumpForce 7.5` → apex ≈ 113
-- Inside box heavy: `gravity 0.45`, `jumpForce 7.8` → apex ≈ 68 (borderline — prefer 0.40 / 7.8 ≈ 76, or raise jump into `fun` exception)
+- Punchy mid: `gravity 0.34`, `jumpForce 9` → apex ≈ 119
+- Heavy snappy: `gravity 0.48`, `jumpForce 11` → apex ≈ 126
+- Floaty fun: `gravity 0.14`, `jumpForce 6.5` → apex ≈ 151
+- Mean political: `gravity 0.55`, `jumpForce 12` → apex ≈ 131
 
 Also:
 
-- `pillarGap` should be **~2.5× birdSize** (65 → ~160–190). Never smaller than the bird.
-- Approach frames ≈ `pillarSpacing / scrollSpeed` should be **≥ 40** (server floor is 36).
+- `pillarGap` ≈ **2.5× birdSize** (never smaller than the bird).
+- Approach frames ≈ `pillarSpacing / scrollSpeed` **≥ 40** (server floor ~36).
 - Do not combine high speed + low spacing + small gap.
 
 ### Invariants you must satisfy (fly)
 
 Net climb: `jumpForce × 0.25 ≥ gravity × 1.2`  →  `jumpForce ≥ 4.8 × gravity`.
 
-Inside the 30% box this is almost automatic. Still set jumpForce **≥ 7** in fly so it *feels* like thrust.
+Always set jumpForce **≥ 7** in fly so it *feels* like thrust. Jets should use **fly**, not flap-with-a-plane-sprite.
 
-### Theme presets (use as starting points, then nudge)
+### Slot presets that PLAY different
 
-**Cat / meme / recognisable / country** — readable flap:
+Use these as starting points, then push toward clamp edges for the joke. Fun = low-g **or** fly+speed. Political = meaner. Jets = fly.
+
+**Cat / meme / recognisable / country** — readable but not soft-default:
 
 ```
 birdControlMode flap
-gravity 0.28  jumpForce 7  scrollSpeed 3.2
-birdSize 60–70  pillarGap 175–200  pillarSpacing 280–320
+gravity 0.30–0.42   jumpForce 8–10     scrollSpeed 3.0–4.2
+birdSize 55–80      pillarGap ~2.5×size  pillarSpacing 270–330
 pillarProportional true
 ```
 
-**Fun — moon / space:**
+Vary across the week: chunky slow cat one day, snappy slim countryball the next. Never repeat 0.28/7/3.2.
+
+**Fun — moon / space / floaty (low-g):**
 
 ```
 birdControlMode flap
-gravity 0.16–0.24   ← allowed outside 30%; this IS the joke
-jumpForce 6.5–8     keep apex 80–180
-scrollSpeed 2.6–3.2
-birdSize 58–72  pillarGap 190–220  pillarSpacing 300–340
+gravity 0.12–0.20     ← near clamp edge; this IS the joke
+jumpForce 6–7.5       keep apex 100–160
+scrollSpeed 2.4–3.2
+birdSize 58–80  pillarGap 190–230  pillarSpacing 300–360
 groundColor #2a2a32  grassColor #6e6e78
 ```
 
-Check apex. `gravity 0.12` + `jumpForce 8` → 267 (too floaty, sanitizer will tighten). Prefer `0.20` / `7` → 122.
+Check apex. `gravity 0.10` + `jumpForce 8` → 320 (sanitizer kills it). Prefer `0.14` / `6.5` → 151.
 
-**Fun — jet / fly:**
+**Fun — jet / craft (fly + speed):**
 
 ```
-birdControlMode fly
-gravity 0.30–0.38
-jumpForce 8–11      ← allowed outside 30%; fly needs punch
-scrollSpeed 4.2–5.5 ← allowed a bit outside 30%
-birdSize 55–70  pillarGap 170–200  pillarSpacing 260–320
+birdControlMode fly   ← required for jets; do not flap a plane
+gravity 0.28–0.40
+jumpForce 9–14        thrust must clear 4.8×gravity
+scrollSpeed 4.5–6.5   exciting; keep spacing/speed ≥ 40
+birdSize 50–70  pillarGap 160–200  pillarSpacing 280–360
 ```
 
 Bombs as GIF pillars: keep pillar GIF tight; `pillar2OnTop true` if bombs fall from the sky.
 
-**Political / hard challenge:**
+**Political / hard challenge (meaner):**
 
 ```
-flap, gravity 0.30–0.34, jumpForce 7–7.5, scrollSpeed 3.6–4.2
-pillarGap 150–170  pillarSpacing 250–280
+flap, gravity 0.45–0.60, jumpForce 10–13, scrollSpeed 4.5–5.8
+birdSize 48–58  pillarGap 125–150  pillarSpacing 240–280
 ```
 
-Slightly mean, not sadistic. Put `HARD` or `Challenge` in the title only if it really is.
+Meaner gaps and speed, still apex 100–160 and frames ≥ 40. Put `HARD` / `Challenge` in the title only if it really is.
 
 **Story / dark:**
 
-Match the world. Underworld → darker `groundColor`. Chase → a bit more speed. Never break the apex/gap rules to be “edgy.”
+Match the world. Underworld → darker `groundColor`. Chase → more speed. Never break apex/gap rules to be “edgy.”
 
 ### Colours
 
@@ -561,7 +588,7 @@ Image generation: only as a last resort for a **simple silhouette** (countryball
 - [ ] GIF pillars don’t explode across the whole frame
 - [ ] Apex 80–180 if flap; fly thrust inequality holds
 - [ ] Gap ~2.5× birdSize; spacing/speed ≥ 40 frames
-- [ ] Settings inside ±30% unless `fun` physics exception
+- [ ] Settings in excitement band / near sanitizer-safe clamp edges (not soft ±30% sameness); ≥3 physics keys differ vs previous day
 - [ ] `slot` / `story` / `inspiration` / `repostHints` filled
 - [ ] Pushed to `main` before starting the next date
 
