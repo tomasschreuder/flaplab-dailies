@@ -1,0 +1,27 @@
+{
+  "title": "FlapLab Daily \u2014 Merz Stress Test.exe",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.29,
+    "jumpForce": 7.3,
+    "scrollSpeed": 3.5,
+    "birdSize": 60,
+    "pillarGap": 165,
+    "pillarSpacing": 285,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#2a2a2a",
+    "grassColor": "#dd0000"
+  },
+  "slot": "country",
+  "story": "You are Germanyball. Brandenburg Gate keeps rising as Berlin and Mecklenburg-Vorpommern votes pile pressure on Merz.",
+  "inspiration": "BBC Sep 20 2026: German state elections in Berlin and Mecklenburg-Vorpommern could decide Chancellor Friedrich Merz's fate amid AfD pressure.",
+  "repostHints": [
+    "r/de",
+    "r/europe",
+    "r/FlappyLab"
+  ]
+}
