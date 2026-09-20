@@ -1,0 +1,27 @@
+{
+  "title": "FlapLab Daily \u2014 Too Close to the Sun",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.18,
+    "jumpForce": 6.9,
+    "scrollSpeed": 3.0,
+    "birdSize": 68,
+    "pillarGap": 200,
+    "pillarSpacing": 320,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#1a1a2e",
+    "grassColor": "#c45c26"
+  },
+  "slot": "story",
+  "story": "You are Icarus. Sun disks keep rising. Wax wings hate this flight plan.",
+  "inspiration": "Dark-humor fable (odd ISO week 39 \u2192 story): Icarus vs the sun; Herbert Draper Lament for Icarus still rembg'd as bird.",
+  "repostHints": [
+    "r/mythology",
+    "r/darkjokes",
+    "r/FlappyLab"
+  ]
+}
