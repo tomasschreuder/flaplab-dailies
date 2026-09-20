@@ -1,0 +1,27 @@
+{
+  "title": "FlapLab Daily \u2014 If I Fits I Sits",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.26,
+    "jumpForce": 6.8,
+    "scrollSpeed": 2.9,
+    "birdSize": 62,
+    "pillarGap": 185,
+    "pillarSpacing": 310,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#5a3a1a",
+    "grassColor": "#8b6914"
+  },
+  "slot": "cat",
+  "story": "You are a house cat. Cardboard boxes keep appearing. If you fits, you sits \u2014 but you have to flap first.",
+  "inspiration": "Evergreen cat chaos (not wet-cat / not orange-loaf-yarn): photo cat cutout vs cardboard box pillars in a living room.",
+  "repostHints": [
+    "r/cats",
+    "r/catpictures",
+    "r/FlappyLab"
+  ]
+}
