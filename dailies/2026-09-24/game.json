@@ -1,0 +1,27 @@
+{
+  "title": "FlapLab Daily \u2014 I Hate Mondays Lasagna",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.3,
+    "jumpForce": 7.4,
+    "scrollSpeed": 3.2,
+    "birdSize": 66,
+    "pillarGap": 175,
+    "pillarSpacing": 290,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#6b4423",
+    "grassColor": "#c4a574"
+  },
+  "slot": "recognisable",
+  "story": "You are Garfield. Lasagna stacks keep blocking Monday. You hate this.",
+  "inspiration": "Evergreen recognisable: Garfield \u00d7 lasagna (evergreen.md); photo lasagna cutout vs orange Garfield-face silhouette.",
+  "repostHints": [
+    "r/garfield",
+    "r/comics",
+    "r/FlappyLab"
+  ]
+}
