@@ -1,1 +1,27 @@
-PLACEHOLDER
+{
+  "title": "FlapLab Daily \u2014 House That Allen Built",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.3,
+    "jumpForce": 7.8,
+    "scrollSpeed": 4.0,
+    "birdSize": 58,
+    "pillarGap": 155,
+    "pillarSpacing": 280,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#2d5a2d",
+    "grassColor": "#3d8a3d"
+  },
+  "slot": "trending",
+  "story": "You are Josh Allen. Goalposts keep rising in the House that Allen built as Buffalo opens Highmark Stadium.",
+  "inspiration": "ESPN Sep 17 2026: Josh Allen's 5-TD night opens new Highmark Stadium; Bills beat Lions 41-31 in the House that Allen built.",
+  "repostHints": [
+    "r/nfl",
+    "r/buffalobills",
+    "r/FlappyLab"
+  ]
+}
