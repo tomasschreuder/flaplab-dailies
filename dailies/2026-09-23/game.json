@@ -1,0 +1,27 @@
+{
+  "title": "FlapLab Daily \u2014 Vice City Traffic HARD",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.22,
+    "jumpForce": 7.0,
+    "scrollSpeed": 4.8,
+    "birdSize": 70,
+    "pillarGap": 190,
+    "pillarSpacing": 250,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#c2a878",
+    "grassColor": "#2f8f4e"
+  },
+  "slot": "fun",
+  "story": "You are a Miami flamingo. Palm trees keep stacking in your Vice City skyline flight path. Keep low.",
+  "inspiration": "GTA VI Netflix Extended Look discourse Aug\u2013Sep 2026 + Miami Vice skyline stills; physics punchline = fast coastal chase (scroll 4.8, soft gravity).",
+  "repostHints": [
+    "r/GTAVI",
+    "r/gaming",
+    "r/FlappyLab"
+  ]
+}
