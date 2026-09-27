@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily \u2014 Better Deal HARD",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.32,
+    "jumpForce": 7.3,
+    "scrollSpeed": 3.8,
+    "birdSize": 64,
+    "pillarGap": 160,
+    "pillarSpacing": 260,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#2a2a20",
+    "grassColor": "#5a6a40"
+  },
+  "slot": "political",
+  "story": "You are Trump. Iran's 7-day Hormuz roadmap is in the water. The oil barrels want a better deal.",
+  "inspiration": "Sep 26\u201327 2026: Trump rejects Iran's seven-day roadmap to reopen Strait of Hormuz (Al Jazeera/AFP). https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz",
+  "repostHints": [
+    "r/politics",
+    "r/worldnews",
+    "r/politicalhumor",
+    "r/FlappyLab"
+  ]
+}
