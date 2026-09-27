@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily \u2014 115 Charges.exe",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.3,
+    "jumpForce": 7.2,
+    "scrollSpeed": 3.5,
+    "birdSize": 64,
+    "pillarGap": 170,
+    "pillarSpacing": 280,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#1a3a1a",
+    "grassColor": "#2d8a3e"
+  },
+  "slot": "trending",
+  "story": "You are Pep. The Premier League charges keep coming. Etihad won't save you.",
+  "inspiration": "Sep 27 2026: BBC/Athletic \u2014 Man City found guilty of majority of 115 Premier League financial charges; Pep/Saul Goodman meme flood. https://www.bbc.com/sport/football/articles/cr89jjwy4nqpo",
+  "repostHints": [
+    "r/soccer",
+    "r/MCFC",
+    "r/PremierLeague",
+    "r/FlappyLab"
+  ]
+}
