@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily \u2014 New Cat Dropped",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7.0,
+    "scrollSpeed": 3.1,
+    "birdSize": 70,
+    "pillarGap": 185,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#1a2a12",
+    "grassColor": "#2f6b2f"
+  },
+  "slot": "cat",
+  "story": "You are Tilcayo. The Photo Ark cameras won't stop. Everybody say pspsps.",
+  "inspiration": "Sep 17 2026: NatGeo announces Leopardus tilcayo (Bolivia); 'new cat dropped' meme wave. Wikimedia File:Leopardus tilcayo.jpg + Photo Ark discourse.",
+  "repostHints": [
+    "r/cats",
+    "r/aww",
+    "r/pics",
+    "r/FlappyLab"
+  ]
+}
