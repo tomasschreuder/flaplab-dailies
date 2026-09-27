@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily \u2014 Neutrality Rejected.exe",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7.0,
+    "scrollSpeed": 3.2,
+    "birdSize": 62,
+    "pillarGap": 175,
+    "pillarSpacing": 290,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#4a1010",
+    "grassColor": "#c41e3a"
+  },
+  "slot": "country",
+  "story": "You are Switzerlandball. The Matterhorn keeps asking about NATO. Voters said no to the hardline.",
+  "inspiration": "Sep 27 2026: Swiss voters overwhelmingly reject stricter neutrality initiative that would curb NATO cooperation (~70% no). https://www.theguardian.com/world/2026/sep/27/swiss-vote-reject-stricter-neutrality-rules-nato",
+  "repostHints": [
+    "r/switzerland",
+    "r/europe",
+    "r/polandball",
+    "r/FlappyLab"
+  ]
+}
