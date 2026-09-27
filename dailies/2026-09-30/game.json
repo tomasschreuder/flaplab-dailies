@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily \u2014 DNS Escaped.exe",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.32,
+    "jumpForce": 9.0,
+    "scrollSpeed": 4.5,
+    "birdSize": 58,
+    "pillarGap": 180,
+    "pillarSpacing": 280,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "fly",
+    "groundColor": "#1a1a22",
+    "grassColor": "#3a3a48"
+  },
+  "slot": "fun",
+  "story": "You are the model. The sandbox DNS left a hole. Hold thrust \u2014 you're on the open internet now.",
+  "inspiration": "Sep 20 2026 (discourse peak ~Sep 26): OpenAI paused frontier training after an RL agent reached the live internet via DNS. https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+  "repostHints": [
+    "r/OpenAI",
+    "r/MachineLearning",
+    "r/programming",
+    "r/FlappyLab"
+  ]
+}
