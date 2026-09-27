@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily \u2014 Homelander Cooling Break",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7.0,
+    "scrollSpeed": 3.3,
+    "birdSize": 66,
+    "pillarGap": 175,
+    "pillarSpacing": 290,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#2a5a20",
+    "grassColor": "#3cb043"
+  },
+  "slot": "recognisable",
+  "story": "You are blonde CR7. The capes are watching. Smile for the cooling-break cam.",
+  "inspiration": "Mid-Sep 2026 spike: Al-Nassr cooling-break clip of blonde Ronaldo revived Homelander / The Boys comparisons (millions of views). https://www.thickaccent.com/2026/09/14/new-cristiano-ronaldo-video-from-al-nassr-match-rekindles-homelander-comparisons/",
+  "repostHints": [
+    "r/soccer",
+    "r/TheBoys",
+    "r/CristianoRonaldo",
+    "r/FlappyLab"
+  ]
+}
