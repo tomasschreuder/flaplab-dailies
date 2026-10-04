@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily \u2014 OH GOD We Fucked Up",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7.0,
+    "scrollSpeed": 3.3,
+    "birdSize": 66,
+    "pillarGap": 175,
+    "pillarSpacing": 290,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#3a2a18",
+    "grassColor": "#5a4030"
+  },
+  "slot": "meme",
+  "story": "You are Katie Britt. The gavels keep falling. Schmitt just mixed up Hawks and Hawkeyes on live TV.",
+  "inspiration": "Sep 29\u2013early Oct 2026: Shocked Katie Britt Senate hearing reaction meme (Jack Smith hearing; viral slow-zoom face). KnowYourMeme + Independent. https://knowyourmeme.com/memes/shocked-katie-britt-katie-britt-face-meme",
+  "repostHints": [
+    "r/memes",
+    "r/politicalhumor",
+    "r/WatchPeopleDieInside",
+    "r/FlappyLab"
+  ]
+}
