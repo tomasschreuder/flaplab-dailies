@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily \u2014 Seven Nil.exe",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7.0,
+    "scrollSpeed": 3.4,
+    "birdSize": 64,
+    "pillarGap": 170,
+    "pillarSpacing": 285,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#1a5a20",
+    "grassColor": "#3cb043"
+  },
+  "slot": "recognisable",
+  "story": "You are the Three Lions. The checkerboards keep coming. Saka already scored twice \u2014 keep flying.",
+  "inspiration": "Oct 3 2026: Croatia 0-7 England (Kane & Saka braces) UEFA Nations League. https://www.theguardian.com/football/2026/oct/03/croatia-england-nations-league-match-report",
+  "repostHints": [
+    "r/soccer",
+    "r/ThreeLions",
+    "r/chelseafc",
+    "r/FlappyLab"
+  ]
+}
