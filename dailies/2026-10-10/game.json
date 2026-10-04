@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily \u2014 United List.exe",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7.0,
+    "scrollSpeed": 3.2,
+    "birdSize": 62,
+    "pillarGap": 175,
+    "pillarSpacing": 290,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#4a1010",
+    "grassColor": "#9E1B34"
+  },
+  "slot": "country",
+  "story": "You are Latviaball. The Freedom Monument keeps counting seats. United List just landed ~42.",
+  "inspiration": "Oct 4 2026: Latvia Saeima \u2014 United List (Apvienotais saraksts) landslide under PM Andris Kulbergs (~35\u201342 seats). https://eng.lsm.lv/article/politics/election/04.10.2026-the-votes-are-in-united-list-handed-massive-mandate-by-latvian-voters.a666044/",
+  "repostHints": [
+    "r/latvia",
+    "r/europe",
+    "r/polandball",
+    "r/FlappyLab"
+  ]
+}
