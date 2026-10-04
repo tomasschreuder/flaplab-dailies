@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily \u2014 Hold Throttle SC",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.35,
+    "jumpForce": 9.5,
+    "scrollSpeed": 4.6,
+    "birdSize": 70,
+    "pillarGap": 185,
+    "pillarSpacing": 280,
+    "pillarProportional": false,
+    "pillar2OnTop": false,
+    "birdControlMode": "fly",
+    "groundColor": "#1a2a18",
+    "grassColor": "#2d6b30"
+  },
+  "slot": "fun",
+  "story": "You are the Red Bull. Hold thrust through the Safety Cars. Sepang monsoon won't lift \u2014 first Ford win still counts.",
+  "inspiration": "Oct 4 2026: Verstappen/Red Bull Ford win rain-delayed Bahrain GP in Malaysia \u2014 fly-mode setpiece of the SC crawl. https://www.fia.com/news/f1-verstappen-wins-dramatic-bahrain-grand-prix-malaysia-ahead-antonelli-and-hamilton",
+  "repostHints": [
+    "r/formula1",
+    "r/aviation",
+    "r/gaming",
+    "r/FlappyLab"
+  ]
+}
