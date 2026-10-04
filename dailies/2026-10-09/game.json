@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily \u2014 Pspsps HARD",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7.0,
+    "scrollSpeed": 3.1,
+    "birdSize": 70,
+    "pillarGap": 185,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#3a2a20",
+    "grassColor": "#6b5040"
+  },
+  "slot": "cat",
+  "story": "You are the startled stare. The shampoo bottles won't stop. Nobody said bath time.",
+  "inspiration": "Evergreen startled-stare cat photo cutout vs shampoo bottles (fresh pillar; not Tilcayo/box/wet-cat).",
+  "repostHints": [
+    "r/cats",
+    "r/StartledCats",
+    "r/aww",
+    "r/FlappyLab"
+  ]
+}
