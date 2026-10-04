@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily \u2014 Under SC.exe",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.3,
+    "jumpForce": 7.2,
+    "scrollSpeed": 3.0,
+    "birdSize": 64,
+    "pillarGap": 175,
+    "pillarSpacing": 300,
+    "pillarProportional": false,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#2a4a20",
+    "grassColor": "#3cb043"
+  },
+  "slot": "trending",
+  "story": "You are Max. The Safety Car won't leave. Sepang turned into a monsoon crawl \u2014 first Red Bull Ford win anyway.",
+  "inspiration": "Oct 4 2026: Verstappen wins rain-delayed Bahrain GP held in Malaysia; first Red Bull Ford win of the season (FIA/BBC/F1). https://www.bbc.com/sport/formula1/articles/c5n49zx3zlvwo",
+  "repostHints": [
+    "r/formula1",
+    "r/MaxVerstappen33",
+    "r/sports",
+    "r/FlappyLab"
+  ]
+}
