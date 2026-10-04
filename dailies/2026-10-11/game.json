@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily \u2014 Steal Fire HARD",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.3,
+    "jumpForce": 7.2,
+    "scrollSpeed": 3.3,
+    "birdSize": 66,
+    "pillarGap": 170,
+    "pillarSpacing": 285,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#2a1a10",
+    "grassColor": "#5a3a20"
+  },
+  "slot": "story",
+  "story": "You are Prometheus. The columns of Olympus keep rising. Steal the fire anyway \u2014 mankind is waiting.",
+  "inspiration": "Dark fable (ISO week 41 odd \u2192 story): Prometheus steals fire. Wikimedia Heinrich F\u00fcger 1817 still rembg'd. Not Icarus.",
+  "repostHints": [
+    "r/mythology",
+    "r/ArtHistory",
+    "r/greentext",
+    "r/FlappyLab"
+  ]
+}
