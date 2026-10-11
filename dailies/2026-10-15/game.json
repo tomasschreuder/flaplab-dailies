@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily — Finger Lickin' HARD",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.3,
+    "jumpForce": 7.4,
+    "scrollSpeed": 3.7,
+    "birdSize": 64,
+    "pillarGap": 165,
+    "pillarSpacing": 285,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#7a1f1f",
+    "grassColor": "#c8102e"
+  },
+  "slot": "recognisable",
+  "story": "You are Colonel Sanders. Your own giant spinning buckets have turned on you. Fly the drive-thru.",
+  "inspiration": "Recognisable brand face (evergreen.md: KFC colonel + bucket). Real Colonel Harland Sanders photo, Bishop CA spinning KFC bucket sign and KFC storefront — Wikimedia, rembg. No outside franchise overlap in last 14 days.",
+  "repostHints": [
+    "r/KFC",
+    "r/nostalgia",
+    "r/funny",
+    "r/FlappyLab"
+  ]
+}
