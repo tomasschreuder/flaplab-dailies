@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily — Tip Toein' In My Jordans",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.27,
+    "jumpForce": 7.2,
+    "scrollSpeed": 3.2,
+    "birdSize": 66,
+    "pillarGap": 180,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#8a6a2a",
+    "grassColor": "#d9b44a"
+  },
+  "slot": "meme",
+  "story": "You are the AI Rumpelstiltskin. Tip-toe through the barn of giant Jordans before the straw runs out.",
+  "inspiration": "AI Rumpelstiltskin 'Tip Toein' In My Jordans' meme (Riff Raff), viral on X/TikTok Oct 1-7 2026 (KYM, NBC News Oct 7 2026). Bird = KYM still cutout (rembg); Air Jordan 1 + barn from Wikimedia.",
+  "repostHints": [
+    "r/memes",
+    "r/me_irl",
+    "r/Sneakers",
+    "r/FlappyLab"
+  ]
+}
