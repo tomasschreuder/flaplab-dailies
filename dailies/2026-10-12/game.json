@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily — We Will Not Forget Norway",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.3,
+    "jumpForce": 7.4,
+    "scrollSpeed": 3.5,
+    "birdSize": 62,
+    "pillarGap": 170,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#6b5a4a",
+    "grassColor": "#3d6b35"
+  },
+  "slot": "trending",
+  "story": "You are the 2026 Nobel Peace Prize medal. Trump says he deserved you. Get to Navi Pillay in Oslo without being grabbed.",
+  "inspiration": "Nobel Peace Prize to Navi Pillay (Oct 9, 2026); Trump: 'indelible stain on Norway… we will not forget' (NBC/BBC/Independent, Oct 9-10 2026). Medal + Trump portrait + Oslo City Hall from Wikimedia, rembg cutout.",
+  "repostHints": [
+    "r/PoliticalHumor",
+    "r/europe",
+    "r/norge",
+    "r/FlappyLab"
+  ]
+}
