@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily — Softhearted Gunner",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.27,
+    "jumpForce": 7,
+    "scrollSpeed": 3.2,
+    "birdSize": 66,
+    "pillarGap": 190,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#4a5a1a",
+    "grassColor": "#9ab83a"
+  },
+  "slot": "cat",
+  "story": "You are the crying orange kitten. You can't pull the trigger. Dodge the guns and fly to the sunlit hug.",
+  "inspiration": "'Softhearted Gunner' AI-video meme: tearful orange kitten can't shoot the zombie it loves; X post Oct 4 2026 passed 2.4M views (meme.com, Oct 9 2026). Bird = still cutout (rembg + oval mask); Glock + mountain meadow from Wikimedia.",
+  "repostHints": [
+    "r/cats",
+    "r/MEOW_IRL",
+    "r/memes",
+    "r/FlappyLab"
+  ]
+}
