@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily — Cockroach Janta.exe",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7.2,
+    "scrollSpeed": 3.4,
+    "birdSize": 62,
+    "pillarGap": 170,
+    "pillarSpacing": 290,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#5a4630",
+    "grassColor": "#138808"
+  },
+  "slot": "country",
+  "story": "You are the cockroach the movement is named after. Delhi has barricaded India Gate. Cockroaches always get through.",
+  "inspiration": "India in the news: youth 'Cockroach' movement vs voter-list revision; mass detentions in New Delhi Oct 10 2026 (NPR, Oct 10 2026). Real cockroach photo, India Gate, Flag of India — Wikimedia, rembg.",
+  "repostHints": [
+    "r/india",
+    "r/IndiaSpeaks",
+    "r/europe",
+    "r/FlappyLab"
+  ]
+}
