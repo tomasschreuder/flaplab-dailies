@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily — Into The Eye.exe",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.34,
+    "jumpForce": 9,
+    "scrollSpeed": 4.8,
+    "birdSize": 70,
+    "pillarGap": 190,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "fly",
+    "groundColor": "#3a4a52",
+    "grassColor": "#5f7f6a"
+  },
+  "slot": "fun",
+  "story": "You are NOAA hurricane hunter 'Miss Piggy'. Hold to thrust and punch through the eyewall while the palm trees bend sideways.",
+  "inspiration": "Hurricane Isaias made Florida landfall Oct 10 2026 and Hurricane Simon hit Cat 4 off Mexico (the noise / NPR, Oct 10 2026). Fly-mode physics = hurricane hunter flight. NOAA WP-3D N42RF, ISS eye photo (Milton 2024), Key West palms — all Wikimedia, rembg.",
+  "repostHints": [
+    "r/aviation",
+    "r/TropicalWeather",
+    "r/interestingasfuck",
+    "r/FlappyLab"
+  ]
+}
