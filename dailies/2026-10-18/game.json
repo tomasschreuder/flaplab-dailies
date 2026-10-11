@@ -1,0 +1,28 @@
+{
+  "title": "FlapLab Daily — 500,000 Tonnes of Diesel HARD",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.32,
+    "jumpForce": 7.5,
+    "scrollSpeed": 3.9,
+    "birdSize": 64,
+    "pillarGap": 160,
+    "pillarSpacing": 270,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#2a2a30",
+    "grassColor": "#7a1a1a"
+  },
+  "slot": "political",
+  "story": "You are Putin. You just sold Trump half a million tonnes of diesel. Now dodge the barrel stacks out of the Kremlin before the EU sanctions package lands.",
+  "inspiration": "Trump–Putin call Oct 9 2026: Russia lifts diesel export ban for 500,000 t to US/global markets; senators condemn, EU readies largest sanctions package; Kremlin says peace talks unlikely (Al Jazeera / the noise, Oct 10 2026). ISO week 42 even → political. Putin official portrait, fuel drums, Kremlin night — Wikimedia, rembg.",
+  "repostHints": [
+    "r/PoliticalHumor",
+    "r/europe",
+    "r/worldnews",
+    "r/FlappyLab"
+  ]
+}
