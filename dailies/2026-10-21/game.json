@@ -1,0 +1,29 @@
+{
+  "title": "FlapLab Daily — 456 Launches a Year.exe",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.34,
+    "jumpForce": 9,
+    "scrollSpeed": 4.8,
+    "birdSize": 70,
+    "pillarGap": 180,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "fly",
+    "groundColor": "#c9b48a",
+    "grassColor": "#7a8f3a"
+  },
+  "slot": "fun",
+  "story": "You are Starship. SpaceX wants 456 launches a year out of Boca Chica — nearly one every weekday. Hold to thrust: the Mechazilla towers keep popping up and nobody has time to stack you twice.",
+  "inspiration": "FAA opened its environmental review on 14 Oct 2026 for SpaceX's plan to go from 25 to up to 456 Starship launches (912 landings) a year at Starbase — the Squid Game number did the rest; then Texas officials floated selling Boca Chica State Park to SpaceX (X Trending 2110366824164622407, 14 Oct; 2111315193347055863, 17 Oct). Starship SN16 + Starbase launch tower + Boca Chica site photos (Wikimedia), rembg cutouts. Fly mode = hold-to-thrust rocket.",
+  "repostHints": [
+    "r/SpaceXMasterrace",
+    "r/space",
+    "r/SpaceXLounge",
+    "r/gaming",
+    "r/FlappyLab"
+  ]
+}
