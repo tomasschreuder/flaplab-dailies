@@ -1,0 +1,29 @@
+{
+  "title": "FlapLab Daily — Not Kissing No Boy. NO BOY.",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7.2,
+    "scrollSpeed": 3.3,
+    "birdSize": 66,
+    "pillarGap": 175,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#2a0a14",
+    "grassColor": "#ff4fa3"
+  },
+  "slot": "meme",
+  "story": "You are Chappell Roan mid-scream. The passive boys (literal Kens) keep lining up on stage. You are not kissing any boy that is passive. NO BOY.",
+  "inspiration": "Olivia Rodrigo 'expectations' remix ft. Chappell Roan dropped 15 Oct 2026 (game-show video, David Byrne host); her 'not kissing no boy, no boy' line became the week's caption meme — X Trending 'Olivia Rodrigo and Chappell Roan Remix Sparks No Boy Chant' (x.com/i/trending/2111253566396715334, 18 Oct), ~55k posts 16–18 Oct. Chappell Roan live photo + Sziget 2025 stage (Wikimedia), vintage Ken doll (Wikimedia 'Ken dolls.jpg') as the passive boys; rembg cutouts.",
+  "repostHints": [
+    "r/ChappellRoan",
+    "r/OliviaRodrigo",
+    "r/popheads",
+    "r/me_irl",
+    "r/FlappyLab"
+  ]
+}
