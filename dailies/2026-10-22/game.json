@@ -1,0 +1,29 @@
+{
+  "title": "FlapLab Daily — No Flights, No Tights",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.27,
+    "jumpForce": 7.2,
+    "scrollSpeed": 3.3,
+    "birdSize": 66,
+    "pillarGap": 180,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#5a3d1e",
+    "grassColor": "#c9a24a"
+  },
+  "slot": "recognisable",
+  "story": "You are Clark Kent. Ten seasons of 'no flights, no tights' — and on Smallville's 25th birthday you finally get airborne over the Kent farm. Shame about the meteor rocks.",
+  "inspiration": "Smallville turned 25 (premiered 16 Oct 2001): X Trending 'Smallville Marks 25 Years with Fan Nostalgia and Suit Debates' (x.com/i/trending/2111074172814413839, 17–18 Oct 2026) — fans roasting the 'no flights, no tights' rule and the decade-long wait for the suit. Tom Welling-era Clark promo still + green crystal cluster as kryptonite (both from PNG sites with baked checkerboard, cleaned with rembg + saturation key), red barn in cornfield (Wikimedia) as the Kent farm.",
+  "repostHints": [
+    "r/Smallville",
+    "r/DCcomics",
+    "r/television",
+    "r/nostalgia",
+    "r/FlappyLab"
+  ]
+}
