@@ -1,0 +1,29 @@
+{
+  "title": "FlapLab Daily — Officer Whiskers On Patrol",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.28,
+    "jumpForce": 7,
+    "scrollSpeed": 3.2,
+    "birdSize": 64,
+    "pillarGap": 180,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#222831",
+    "grassColor": "#2b5cff"
+  },
+  "slot": "cat",
+  "story": "You are Officer Whiskers. You've already detained one suspect by sitting on him. Now the precinct's donut towers are blocking your patrol route — stay professional.",
+  "inspiration": "Officer Whiskers meme (13–15 Oct 2026): a tuxedo cat calmly sitting on a detained suspect's back while police look on, captioned 'Officer Whiskers detains another suspect', spawning cat-cop edits — X Trending 'Officer Whiskers Cat Meme Captures Internet Attention' (x.com/i/trending/2110063321109942701). Real tuxedo cat photo + Met Police peaked cap + glazed donut (Wikimedia, rembg), red/blue police lights photo (Wikimedia) as the scene.",
+  "repostHints": [
+    "r/cats",
+    "r/blackcats",
+    "r/catpics",
+    "r/aww",
+    "r/FlappyLab"
+  ]
+}
