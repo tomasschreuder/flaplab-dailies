@@ -1,0 +1,29 @@
+{
+  "title": "FlapLab Daily — Winless in Six.exe",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.3,
+    "jumpForce": 7.4,
+    "scrollSpeed": 3.4,
+    "birdSize": 64,
+    "pillarGap": 170,
+    "pillarSpacing": 290,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#1d2a4a",
+    "grassColor": "#2e8b3a"
+  },
+  "slot": "trending",
+  "story": "You are Michael Carrick. Man United's worst start in 40 years just got another draw at Elland Road. The Leeds crests keep marching on together — keep your head down and flap.",
+  "inspiration": "FT Leeds 1-1 Man United at Elland Road, 18 Oct 2026 (Mbeumo 35', Calvert-Lewin 51') — United winless in six across competitions, 7 points from 7, 13th; 'Carrick out?' replies everywhere. X Trending 'Carrick' + 'Leeds Draw 1-1 with Manchester United' (x.com/i/trending/2111182358661537901). Carrick photo (Wikimedia, Apr 2025) cut with rembg; Leeds United crest (en.wikipedia) stacked; Elland Road 'Marching On Together' stand (Wikimedia, 2023).",
+  "repostHints": [
+    "r/reddevils",
+    "r/LeedsUnited",
+    "r/soccer",
+    "r/PremierLeague",
+    "r/FlappyLab"
+  ]
+}
