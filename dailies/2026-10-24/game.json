@@ -1,0 +1,29 @@
+{
+  "title": "FlapLab Daily — Albexit.exe",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.29,
+    "jumpForce": 7.3,
+    "scrollSpeed": 3.4,
+    "birdSize": 62,
+    "pillarGap": 172,
+    "pillarSpacing": 290,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#3b2a1a",
+    "grassColor": "#2f6b3a"
+  },
+  "slot": "country",
+  "story": "You are Albertaball. Ten referendum questions, one Calgary Tower after another, all asking the same thing: stay a province or start packing? Flap through the Rockies and try not to secede into a tower.",
+  "inspiration": "Alberta's 19 Oct 2026 referendum — 10 questions including whether to remain a province or begin constitutional steps toward separation; Carney campaigned for unity in Edmonton, polls ~70% stay / ~22% separate (X Trending 'Alberta Referendum Tests Unity with Separation Option', x.com/i/trending/2109388757682331706, 13 Oct). Albertaball drawn from the official Flag of Alberta SVG (Wikimedia), Calgary Tower photo (Wikimedia, rembg), Moraine Lake / Banff (Wikimedia).",
+  "repostHints": [
+    "r/polandball",
+    "r/alberta",
+    "r/canada",
+    "r/onguardforthee",
+    "r/FlappyLab"
+  ]
+}
