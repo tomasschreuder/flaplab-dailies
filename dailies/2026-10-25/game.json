@@ -1,0 +1,29 @@
+{
+  "title": "FlapLab Daily — One Hour of Oxygen",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.25,
+    "jumpForce": 6.6,
+    "scrollSpeed": 2.8,
+    "birdSize": 64,
+    "pillarGap": 185,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#07121f",
+    "grassColor": "#1d4d6b"
+  },
+  "slot": "story",
+  "story": "You went diving off the California coast and a sperm whale swallowed you whole. One hour of oxygen. The only way out is between the teeth — and the jaw keeps closing.",
+  "inspiration": "Dark Jonah fable riffing on 'Whalefall' (released 16 Oct 2026: a diver trapped inside a sperm whale with an hour of oxygen; X Trending 'Whalefall Thriller Divides Audiences with Tears and Intensity', x.com/i/trending/2110900650255003739). ISO week 43 odd → story. Scuba diver + sperm whale tooth (Wikimedia, rembg; tooth flips into an upper jaw), deep-blue ocean (Wikimedia). Slow, floaty underwater flap.",
+  "repostHints": [
+    "r/movies",
+    "r/thalassophobia",
+    "r/scuba",
+    "r/oddlyterrifying",
+    "r/FlappyLab"
+  ]
+}
