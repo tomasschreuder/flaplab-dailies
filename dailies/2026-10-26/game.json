@@ -1,0 +1,23 @@
+{
+  "title": "FlapLab Daily — CHOKE BREWERS CHOKE",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.3,
+    "jumpForce": 7.2,
+    "scrollSpeed": 3.6,
+    "birdSize": 64,
+    "pillarGap": 165,
+    "pillarSpacing": 285,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#7a5a3a",
+    "grassColor": "#2e8b3a"
+  },
+  "slot": "trending",
+  "story": "You are the Milwaukee Brewers. Down 4-0 in World Series Game 2, a Rays fan tweeted 'CHOKE BREWERS CHOKE'. Dodge the Rays and come back anyway — Game 3 is tonight in Tampa.",
+  "inspiration": "World Series 2026 Game 2 (Oct 24): Brewers rallied from 4-0 down to beat the Rays 5-4 and lead 2-0; the viral 'COME OUTSIDE BREWERS FANS... CHOKE BREWERS CHOKE!!' Rays-fan post got ratioed into a didn't-age-well meme (X trending, Oct 25). Game 3 Mon Oct 26 in Tampa. Bird = Brewers ball-in-glove roundel, pillars = Rays wordmark, sky = American Family Field (Wikimedia Commons).",
+  "repostHints": ["r/baseball", "r/Brewers", "r/mlb", "r/FlappyLab"]
+}
