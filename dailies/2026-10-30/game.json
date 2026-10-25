@@ -1,0 +1,29 @@
+{
+  "title": "FlapLab Daily — He Doesn't Even Know How Stupid He Looks",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.34,
+    "jumpForce": 7.6,
+    "scrollSpeed": 3.3,
+    "birdSize": 68,
+    "pillarGap": 175,
+    "pillarSpacing": 280,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#5a3b24",
+    "grassColor": "#8fb3a8"
+  },
+  "slot": "cat",
+  "story": "You are the black-and-white cat whose fur pattern is a full receding hairline (and from the back, a perfect bald spot). He has no idea. The barbershop is open and the barber poles keep spinning toward him. Flap past them before someone offers a comb-over.",
+  "inspiration": "Viral X post 'this cat doesn't even know how stupid it looks' (2113665255088017698, 23 Oct 2026, 130k+ likes): a white cat with a black 'receding hairline' pattern and a bald spot seen from behind. Cat cut out from the post photo with rembg; barber pole (Jacksonville, Florida, LoC) and museum barbershop photos from Wikimedia Commons.",
+  "repostHints": [
+    "r/cats",
+    "r/catpics",
+    "r/aww",
+    "r/funny",
+    "r/FlappyLab"
+  ]
+}
