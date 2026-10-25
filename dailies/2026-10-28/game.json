@@ -1,0 +1,29 @@
+{
+  "title": "FlapLab Daily — Matt Is Back And Now He Flies",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.32,
+    "jumpForce": 9,
+    "scrollSpeed": 4.6,
+    "birdSize": 66,
+    "pillarGap": 180,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "fly",
+    "groundColor": "#c9b27a",
+    "grassColor": "#5fbf3a"
+  },
+  "slot": "fun",
+  "story": "You are Matt. Wii Boxing champion 2006, Swordplay champion 2009, and as of this week a canon Legend in Nintendo Switch Sports Resort. Losing was never on the menu, so you took the Island Flyover plane: hold to fly over Wuhu Island and dodge the 100-pin bowling pins with that smug face.",
+  "inspiration": "Nintendo Switch Sports Resort launched 22 Oct 2026 on Switch 2 with Wuhu Island back, and players found Wii Sports Matt returning as a Legend Mii (X posts: Poofesure 2112978589306306584 on Mii sportsmates, 21 Oct; 'Wii Sports Matt being a legend is now canon' 2113374501702435107, 22 Oct; gamedeckgg 2113759873267818983, 23 Oct). Matt Mii render, Wii Sports Resort bowling-pin model and Island Flyover screenshot via MiiWiki. Fly mode = Island Flyover.",
+  "repostHints": [
+    "r/wii",
+    "r/NintendoSwitch",
+    "r/gaming",
+    "r/nostalgia",
+    "r/FlappyLab"
+  ]
+}
