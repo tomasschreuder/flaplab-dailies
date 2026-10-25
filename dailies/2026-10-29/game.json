@@ -1,0 +1,29 @@
+{
+  "title": "FlapLab Daily — Hugh Jackman Has Found The Sandwich",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.32,
+    "jumpForce": 7.6,
+    "scrollSpeed": 3.4,
+    "birdSize": 66,
+    "pillarGap": 170,
+    "pillarSpacing": 285,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#6b5444",
+    "grassColor": "#d9d4cc"
+  },
+  "slot": "recognisable",
+  "story": "You are Hugh Jackman, mid-bite, eyes lit up like he just tasted the best sandwich of his life. The kitchen is now nothing but towers of club sandwiches. Flap through them without stopping to take another bite. (You will want to.)",
+  "inspiration": "This week's reaction-meme of the week: a clip of Hugh Jackman biting a sandwich in his kitchen with pure joy became everyone's go-to 'food bliss' reaction (X Trending 2113039063519269261, 21 Oct 2026). Hugh Jackman photo by Gage Skidmore, club sandwich and bright kitchen photos from Wikimedia Commons, rembg cutouts. Recognisable slot: a face everyone clocks in 0.3s, used with this week's meme.",
+  "repostHints": [
+    "r/memes",
+    "r/MemeTemplatesOfficial",
+    "r/movies",
+    "r/sandwiches",
+    "r/FlappyLab"
+  ]
+}
