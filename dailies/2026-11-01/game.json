@@ -1,0 +1,29 @@
+{
+  "title": "FlapLab Daily — The Great Balti Bailout II",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.33,
+    "jumpForce": 7.6,
+    "scrollSpeed": 3.4,
+    "birdSize": 66,
+    "pillarGap": 170,
+    "pillarSpacing": 285,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#3a3a3a",
+    "grassColor": "#55524c"
+  },
+  "slot": "political",
+  "story": "You are Andy Burnham, freshly in Number 10, and Budget week is coming. The country's finances are being worked out over Sunday-night takeaway curries with your Chancellor, and the baltis are piling up in front of the black door. Flap between the stacks of sizzling pans before the next order arrives. In 2008 it was the great balti bailout. This is the sequel.",
+  "inspiration": "UK politics this week: reports that PM Andy Burnham and Chancellor John Healey are shaping Healey's first Budget over Sunday-night takeaway curry suppers at Downing Street, which recalls the 2008 'great balti bailout' (X Trending, 2114102907150721455, 24 Oct 2026). Budget-pressure context: Healey's defence funding gap (X, 2114316941859123631, 25 Oct 2026). Burnham photo (13 Aug 2024, cropped), Balti gosht and 10 Downing Street door from Wikimedia Commons; rembg cutouts, balti pans stacked into the pillar.",
+  "repostHints": [
+    "r/ukpolitics",
+    "r/unitedkingdom",
+    "r/CasualUK",
+    "r/GreatBritishMemes",
+    "r/FlappyLab"
+  ]
+}
