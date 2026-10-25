@@ -1,0 +1,29 @@
+{
+  "title": "FlapLab Daily — Pumpkins Are For Cowards",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.35,
+    "jumpForce": 7.8,
+    "scrollSpeed": 3.5,
+    "birdSize": 64,
+    "pillarGap": 165,
+    "pillarSpacing": 280,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#3d3324",
+    "grassColor": "#4f6b2a"
+  },
+  "slot": "country",
+  "story": "You are Irelandball on Oíche Shamhna. Before America swapped in soft orange pumpkins, Halloween lanterns were gnarled carved turnips with faces like the ones in the National Museum. They are stacked up on the Hill of Ward, where Samhain fires were lit, and they are staring at you. Flap through.",
+  "inspiration": "Halloween, 31 Oct, with this week's X thread on turnip jack-o'-lanterns: people sharing memories of carving rock-hard turnips/neeps for Samhain in Ireland and Scotland before Irish emigrants switched to pumpkins in America (X Trending 'Turnip Jack-o'-Lanterns Recall Original Halloween Tradition', 2113204745926312287, 22 Oct 2026). Irelandball drawn from the tricolour; carved-turnip photos (Traditional Irish Halloween / Stingy Jack, Museum of Country Life) and Hill of Ward (Tlachtga, Co. Meath, geograph) from Wikimedia Commons, rembg cutouts, sky tinted to dusk.",
+  "repostHints": [
+    "r/polandball",
+    "r/ireland",
+    "r/Halloween",
+    "r/europe",
+    "r/FlappyLab"
+  ]
+}
