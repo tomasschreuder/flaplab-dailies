@@ -1,0 +1,23 @@
+{
+  "title": "FlapLab Daily — Stay Back From The Sea Wall",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.29,
+    "jumpForce": 7.2,
+    "scrollSpeed": 3.3,
+    "birdSize": 66,
+    "pillarGap": 180,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#5f6368",
+    "grassColor": "#a9c2c9"
+  },
+  "slot": "meme",
+  "story": "You are the ETB reporter live on the Ondarroa promenade, warning everyone to stay back from the sea wall. The Cantabrian Sea heard you. Dodge the waves and finish the segment dry.",
+  "inspiration": "Viral live-TV moment (Oct 22–24, 2026): ETB2 'Euskadi Quédate' reporter Sergio Ovejero was mid-warning about the swell in Ondarroa when a wave topped the sea wall and engulfed him on air (unharmed; he joked about it after). Clip trending on X Oct 23–25. Bird = reporter cutout from the broadcast still, pillars = sea-spray plume (photo texture, Wikimedia 'Splash!'), sky = the Ondarroa coast from the broadcast.",
+  "repostHints": ["r/Unexpected", "r/funny", "r/spain", "r/FlappyLab"]
+}
