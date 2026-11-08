@@ -1,0 +1,23 @@
+{
+  "title": "Flappy Trump: NEVER SURRENDER To The Blue Wave",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.gif",
+  "settings": {
+    "gravity": 0.12,
+    "jumpForce": 3.2,
+    "scrollSpeed": 2.6,
+    "birdSize": 64,
+    "pillarGap": 182,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "fly",
+    "groundColor": "#123a8c",
+    "grassColor": "#2a63d6"
+  },
+  "slot": "political",
+  "story": "You are Donald Trump and the midterms just handed Democrats the House and the Senate. A blue wave is lapping at the Capitol steps and the Democratic 'D' is stacking up everywhere. Hold to stay afloat. NEVER SURRENDER.",
+  "inspiration": "US midterms, 3 Nov 2026: Democrats flip both chambers of Congress; Trump posts 'NEVER SURRENDER' as supporters rally online (X Trending 2118239000875921775, 6 Nov 2026; 'blue tsunami' coverage 2117742341171585190, 4 Nov 2026; Warren set to chair Senate Banking 2119066518906380709, 8 Nov 2026). Archetype: Hover — fly mode, gravity 0.12, thrust 3.2: drift above the wave. Bird = Trump 2025 official portrait (Commons transparent version) cropped to head and shoulders; pillar = stacked US Democratic Party 'D' logos (Commons SVG); animated background = US Capitol west front (Commons) with a looping blue wave over the steps.",
+  "repostHints": ["r/PoliticalHumor", "r/politics", "r/PoliticalCompassMemes", "r/memes", "r/FlappyLab"]
+}
