@@ -1,0 +1,23 @@
+{
+  "title": "Flappy Cybertruck: It Was Never Meant To Fly",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.92,
+    "jumpForce": 13.2,
+    "scrollSpeed": 3.3,
+    "birdSize": 74,
+    "pillarGap": 194,
+    "pillarSpacing": 310,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#8c8473",
+    "grassColor": "#a3a35e"
+  },
+  "slot": "fun",
+  "story": "You are the last Tesla Cybertruck off the line at Giga Texas. Production is ending so the factory can build Cybercabs, and they are already stacked to the ceiling. You weigh three tonnes, you are shaped like a doorstop, and you will flap anyway.",
+  "inspiration": "Tesla to wind down Cybertruck production at Giga Texas by mid-2027 to make room for the Cybercab robotaxi; Musk calls it a one-of-a-kind vehicle (X Trending 2118976806619615322, updated 8 Nov 2026), alongside SNL's Weekend Update Musk sketch on Cybertruck woes (X Trending 2119407730834473387, 8 Nov 2026). Archetype: Brick — gravity 0.92, jump 13.2 (apex ~95px): every flap is a violent stainless-steel hop that drops like a rock. Cybertruck (Commons 'Tesla Cybertruck (2024).jpg') and Cybercab (Commons 'Tesla Cybercab at Santana Row side view dllu.jpg') cut with rembg; Cybercabs stacked into the pillar; Giga Texas Building 1 (Commons, June 2022) as sky.",
+  "repostHints": ["r/teslamotors", "r/CyberStuck", "r/cars", "r/memes", "r/FlappyLab"]
+}
