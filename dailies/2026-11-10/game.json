@@ -1,0 +1,23 @@
+{
+  "title": "Flappy Seatbelt Dog: Buckle Up (Speedrun)",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.gif",
+  "settings": {
+    "gravity": 0.42,
+    "jumpForce": 7.1,
+    "scrollSpeed": 8.4,
+    "birdSize": 50,
+    "pillarGap": 172,
+    "pillarSpacing": 420,
+    "pillarProportional": false,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#1c1d22",
+    "grassColor": "#3a3d44"
+  },
+  "slot": "meme",
+  "story": "You are Seatbelt Dog, the buckled-in Jack Russell the whole timeline is replying with. Someone floored it down the night freeway and every seatbelt in the car is coming for you. Safety first, speed second. Actually, speed first.",
+  "inspiration": "Seatbelt Dog: the clip of a tiny Jack Russell primly buckled into a car seat became 'X's fastest meme' this week, used as a reply video everywhere (X Trending 2119278609299050551, 7-8 Nov 2026; original clip @acervodoguinhos, reposted e.g. x.com/i/status/2118620909221171383, 6 Nov 2026). Archetype: Speed Demon — scrollSpeed 8.4, small 50px bird, wide 420 spacing: the car is going way too fast. Bird = frame from the viral clip cut with rembg (isnet), seatbelt and red buckle kept; pillar = seatbelt strap + buckle receiver; animated background = night freeway traffic from Wikimedia Commons 'Cars driving at night.webm' (20-frame GIF loop).",
+  "repostHints": ["r/memes", "r/me_irl", "r/dogs", "r/aww", "r/FlappyLab"]
+}
