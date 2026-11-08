@@ -1,6 +1,6 @@
 # FlapLab Daily Queue — Grok Bot prompt
 
-Paste everything **below the line** into Grok Bot. Schedule it **once per week**, Sunday **18:00 Europe/Amsterdam** (16:00 UTC). One run fills **seven** future days. The Devvit cron still posts **one** game each morning at 08:00 Amsterdam from `dailies/{today}/`.
+Paste everything **below the line** into Grok Bot. Schedule it **once per week**, Sunday **18:00 Europe/Amsterdam** (16:00 UTC). One run fills **seven** future days. The Devvit cron still posts **one** game each morning at 08:00 Amsterdam from `dailies/{today}/` — or, if that folder is missing or broken, a hand-made package from `evergreen/` (so a failed run no longer means an empty morning, but it does mean a generic one).
 
 Also copy this file onto **`flaplab-dailies` as `BOT.md`**, plus `README.md` (from `flaplab-dailies-README.md`), `do-not-use.md`, and `evergreen.md`. The bot should re-read those from the repo each run. If this paste and `README.md` ever disagree on **files / JSON / formats**, `README.md` wins. If they disagree on **taste / slots / scouting**, this prompt / `BOT.md` wins.
 
@@ -35,7 +35,7 @@ If a package looks like a cute themed mini-game (cartoon pitch, generic astronau
    - Then start the next date. Do not batch seven unpushed folders — a crash on day 5 would lose the week.
 6. If a day’s art fails, use the fallback ladder (section 8) for **that date only**, then continue the week. Never commit a fake / opaque game. A hole in the queue is better than a skipped morning from bad alpha.
 
-Do not invent extra dates. Do not edit other dates, README, BOT.md, do-not-use.md, or evergreen.md.
+Do not invent extra dates. Do not edit other dates, README, BOT.md, do-not-use.md, evergreen.md, or anything under `evergreen/`.
 
 ## 1. Hard technical contract (the server will skip the day if you miss this)
 
@@ -43,7 +43,7 @@ Devvit fetches:
 
 `https://raw.githubusercontent.com/tomasschreuder/flaplab-dailies/main/dailies/{YYYY-MM-DD}/`
 
-It treats every file as untrusted. Invalid art or JSON → **no post that morning**.
+It treats every file as untrusted. Invalid art or JSON → your folder is **skipped** and the game posts a generic evergreen package instead. Your topical day is lost.
 
 ### Files (same folder only)
 
@@ -64,7 +64,7 @@ Filenames must match `^[a-zA-Z0-9._-]+\.(png|gif)$`. No spaces, no `..`, no subf
 
 ```json
 {
-  "title": "FlapLab Daily — Be ze baguette",
+  "title": "Flappy Baguette: Be Ze Baguette",
   "bird": "bird.png",
   "pillar": "pillar.png",
   "background": "sky.png",
@@ -88,7 +88,7 @@ Filenames must match `^[a-zA-Z0-9._-]+\.(png|gif)$`. No spaces, no `..`, no subf
 }
 ```
 
-- `title`: 1–80 characters, unique vs the last 14 days, **must start with** `FlapLab Daily — `.
+- `title`: the **caption only**, 1–62 characters, unique vs the last 14 days. The server appends ` | FlappyLab Daily` — do **not** add it yourself, and do not prefix `FlapLab Daily — ` any more (legacy prefixes are stripped automatically). Name the subject in plain, searchable words; prefer `Flappy <Subject>: <hook>` whenever it reads naturally (`Flappy Hugh Jackman: He Found The Sandwich`, `Flappy Brewers: Choke Brewers Choke`).
 - `bird` / `pillar` / `background` / optional `pillar2`: filenames only.
 - `settings`: only the keys listed above. Unknown settings keys are dropped.
 - `slot`, `story`, `inspiration`, `repostHints`: **keep these**. The game server ignores unknown top-level keys. A later cross-post agent will read them.
@@ -305,6 +305,8 @@ Examples of the *shape* (patterns only — do **not** re-ship these exact gags j
 
 Titles that click: **meme captions**, short punch, optional `Challenge` / `HARD` / `Keep Low`, a pun or fake accent, mock-serious (`.exe`). Prefer caption energy (`Ain't Him`, `This Is Fine.exe`) over generic game names (`Moonwalk Simulator` with no cultural hook). Do not write an essay title.
 
+**Searchable subject first.** The title is also what Reddit search and Google index (the post body is a generated description built from `story`). Put the who/what people would actually type up front: `Flappy Matt: Wii Sports Legend Takes Flight` beats `He's Back And Now He Flies`. Keep the joke — just make sure the subject is named, not implied.
+
 **Reject these shapes even if assets exist:**
 
 - Cartoon sports fields, clipart balls, “cute simulator” stock art
@@ -335,11 +337,13 @@ Titles that click: **meme captions**, short punch, optional `Challenge` / `HARD`
 
 If the theme is the moon and gravity feels like Earth, you failed. If the theme is a jet and it still pecks like a bird, you failed. If the theme is a cat loaf and it’s a brutal speedrun, you also failed — cute slots should be readable.
 
+**Variety rule.** Pick each day's physics from the archetypes in section 6, and mix them across the week: floaty, fast, heavy, tight, giant, tiny. Brutal is allowed (put `HARD` in the title when it is). Seven near-identical "Balanced" days is the failure mode.
+
 ### Design formula (lock this before settings)
 
 1. Pick the scout row (or allowed evergreen).
 2. Name bird / pillar / sky in one line (meme math).
-3. Write the caption-style title (`FlapLab Daily — …`).
+3. Write the caption-style title (searchable subject first; no brand prefix — the server adds ` | FlappyLab Daily`).
 4. **Only then** open the asset pipeline (section 5) and settings (section 6).
 
 Do not tune gravity for a joke you have not sourced.
@@ -406,7 +410,17 @@ If nothing transparent exists for any of the 3 concepts: go to section 8.
 Use GIF when motion **is** the joke (bomb spark, waving flag, spinning countryball, flickering portal core, helicopter rotors).  
 Use PNG when the face/object is the joke. A 2MB noisy GIF of a politician talking is worse than a still.
 
-## 6. Settings cookbook (interesting, not broken)
+## 6. Physics: every day must FEEL different
+
+Through October every daily used gravity 0.26–0.32, jump 7–7.8, speed 3–4, bird 60–68, gap 165–185. That is the same game 58 times in different skins. **Physics is half the joke.** A rocket that plays like a pigeon is a failed daily. A penguin that flaps like a brick is a great one. Extreme is welcome; boring is the failure mode.
+
+Engine facts (per 60 fps frame):
+
+- A flap sets velocity to `-jumpForce`; `gravity` is added every frame. One flap rises ≈ `jumpForce² / (2 × gravity)` px — the **apex**.
+- Hold-to-fly (`birdControlMode: "fly"`) accelerates upward by `jumpForce × 0.25` per frame (top speed `jumpForce × 1.2`). It must beat gravity.
+- **The top of the screen kills.** Playable height is 570 px; each gap's top spawns anywhere from 100 px down.
+- `scrollSpeed` is px per frame: 3.5 is the old normal, 8 is frantic, 12 is the editor max.
+- `pillarProportional: true` draws pipes at the art's aspect ratio, and **small gaps make proportional pipes very wide**. Needle, Tiny and Gauntlet days need `false` (classic thin pipes).
 
 Defaults the engine uses if you omit keys:
 
@@ -417,96 +431,49 @@ pillar2OnTop false | birdControlMode flap
 groundColor #4d2d08 | grassColor #00a822
 ```
 
-Stay within **~±30% of defaults** unless the slot is `fun` and the theme *is* the physics.
+### What the server does with your numbers
 
-±30% box (your normal playground):
+It only repairs settings that are **impossible** — that a perfect player could not clear: a gap too small to thread at that speed and gravity, fly thrust weaker than gravity, a flap that always hits the lethal ceiling (apex over 340), pipes arriving faster than 0.2 s, or height swings no amount of tapping could climb. **Anything merely brutal ships exactly as you wrote it.** Absolute limits are the same as the in-app editor: gravity 0.02–1.2, jump 2–20, speed 0.5–12, bird 10–180, gap 40–420, spacing 80–700.
 
-| key | min | default | max |
-|---|---:|---:|---:|
-| gravity | 0.25 | 0.36 | 0.47 |
-| jumpForce | 4.2 | 6.0 | 7.8 |
-| scrollSpeed | 2.5 | 3.5 | 4.6 |
-| birdSize | 46 | 65 | 85 |
-| pillarGap | 123 | 175 | 228 |
-| pillarSpacing | 196 | 280 | 364 |
+### Physics archetypes — pick ONE per day, then nudge the numbers
 
-The server also **clamps** to absolute limits (gravity 0.02–1.2, jump 2–20, speed 0.5–12, bird 10–180, gap 40–420, spacing 80–700) and then **rewrites** unplayable combos. If you ship nonsense, every daily will get flattened toward the same safe blob. Do the job yourself.
+Every preset below is verified to pass the server unchanged. Bold = the knob that makes it.
 
-### Invariants you must satisfy (flap)
+| # | Archetype | Feel | Settings (flap unless noted) | Good for |
+|---|---|---|---|---|
+| 1 | Classic | the old normal | gravity 0.32, jump 7.4, speed 3.4, bird 64, gap 180, spacing 290 | at most once a week |
+| 2 | Speed Demon | frantic 10-second rounds | gravity 0.4, jump 7, **speed 7–10**, bird 44–52, gap 150–180, spacing 380–450 | cars, sprinters, zoomies, deadlines |
+| 3 | Moon Gravity | floaty, every flap drifts | **gravity 0.05–0.12**, jump 2.6–4 (apex 60–110), speed 2.2–2.8, gap 170–200 | space, ghosts, balloons, feathers |
+| 4 | Brick | heavy, violent hops | **gravity 0.8–1.1, jump 12–15** (apex 80–110), speed 3–3.6, gap 180–200 | penguins, pianos, chonky cats, anything that shouldn't fly |
+| 5 | Needle | surgical | bird 36–44, **gap 1.5–1.8× bird**, speed 7–9, gravity 0.45, jump 6.6, spacing 360–420, `pillarProportional: false` | HARD / Challenge days |
+| 6 | Giant | the bird barely fits | **bird 130–170**, gap 240–300, speed 2.6–3, gravity 0.26, jump 6.8, spacing 320–380 | bosses, whales, "absolute unit" memes |
+| 7 | Tiny | a crumb of a bird | **bird 18–28**, gap 50–70, speed 5–6.5, gravity 0.4, jump 6.4, `pillarProportional: false` | bugs, crumbs, "smol" memes |
+| 8 | Gauntlet | pipes packed shoulder to shoulder | **spacing 130–170**, `pillarProportional: false`, speed 2.4–3, gap 175–200, bird 52–58 | traffic, crowds, queues, chimneys |
+| 9 | Twitchy | tiny panicked hops — spam the tap | **gravity 1.0–1.2, jump 6.8–7.6** (apex 20–28), speed 3–3.4, gap 150–170 | chickens, flies, caffeine, anxiety memes |
+| 10 | Afterburner | hold-to-fly at speed | **fly**, gravity 0.4–0.6, jump 9–12, **speed 6.5–9**, bird 48–56, gap 160–180, spacing 400–450 | jets, rockets, missiles, Iron Man |
+| 11 | Hover | drifty hold-to-fly | **fly**, **gravity 0.08–0.15**, jump 2.8–3.6, speed 2.4–2.8, gap 170–190 | UFOs, drones, jellyfish, bubbles |
+| 12 | Chaos | two extremes at once | e.g. Giant + Moon (bird 140, gap 270, gravity 0.07, jump 3.3, speed 2.4), Tiny + Speed Demon, Twitchy + Gauntlet | cursed memes, Fridays, anything absurd |
 
-Flap apex in pixels ≈ `jumpForce² / (2 × gravity)`.
+Name the archetype in `inspiration` (e.g. `Archetype: Brick — penguins can't fly`).
 
-Target **80–180**. Under ~70 the server will lower gravity / raise jump. Over 280 it will kill the moon-jump.
+### Weekly variety rules (hard)
 
-Default 6² / (2×0.36) = **50**, which is actually *low* for the sanitizer. Do **not** copy defaults blindly.
+- Seven days → **at least six different archetypes**. Never the same archetype two days in a row.
+- **Classic at most once a week.**
+- **At least two extreme days** (Needle, Tiny, Brick, Twitchy, Speed Demon, Afterburner or Chaos) and **at least one floaty day** (Moon Gravity or Hover).
+- **At least one hold-to-fly day** (Afterburner or Hover).
+- Match physics to the joke when you can: rocket → Afterburner, penguin → Brick, ghost → Moon Gravity, whale → Giant. When the joke has no physics, pick the archetype the week still needs.
+- Say the twist in the title when it's the point: `(Moon Gravity)`, `(Speedrun)`, `(Tiny)`, `HARD`.
+- Within an archetype, nudge the numbers — never paste the same preset twice in a week.
 
-Safe starting pairs inside the 30% box:
+### Asset variety quotas (per week)
 
-- Standard: `gravity 0.28`, `jumpForce 7` → apex ≈ 88
-- A bit punchier: `gravity 0.32`, `jumpForce 8` is slightly above +30% jump — only for `fun`
-- Inside box floaty: `gravity 0.25`, `jumpForce 7.5` → apex ≈ 113
-- Inside box heavy: `gravity 0.45`, `jumpForce 7.8` → apex ≈ 68 (borderline — prefer 0.40 / 7.8 ≈ 76, or raise jump into `fun` exception)
+Through October: **0** dailies used an animated GIF, **0** used a second obstacle, and every bird was 58–70 px. Fix all three:
 
-Also:
-
-- `pillarGap` should be **~2.5× birdSize** (65 → ~160–190). Never smaller than the bird.
-- Approach frames ≈ `pillarSpacing / scrollSpeed` should be **≥ 40** (server floor is 36).
-- Do not combine high speed + low spacing + small gap.
-
-### Invariants you must satisfy (fly)
-
-Net climb: `jumpForce × 0.25 ≥ gravity × 1.2`  →  `jumpForce ≥ 4.8 × gravity`.
-
-Inside the 30% box this is almost automatic. Still set jumpForce **≥ 7** in fly so it *feels* like thrust.
-
-### Theme presets (use as starting points, then nudge)
-
-**Cat / meme / recognisable / country** — readable flap:
-
-```
-birdControlMode flap
-gravity 0.28  jumpForce 7  scrollSpeed 3.2
-birdSize 60–70  pillarGap 175–200  pillarSpacing 280–320
-pillarProportional true
-```
-
-**Fun — moon / space:**
-
-```
-birdControlMode flap
-gravity 0.16–0.24   ← allowed outside 30%; this IS the joke
-jumpForce 6.5–8     keep apex 80–180
-scrollSpeed 2.6–3.2
-birdSize 58–72  pillarGap 190–220  pillarSpacing 300–340
-groundColor #2a2a32  grassColor #6e6e78
-```
-
-Check apex. `gravity 0.12` + `jumpForce 8` → 267 (too floaty, sanitizer will tighten). Prefer `0.20` / `7` → 122.
-
-**Fun — jet / fly:**
-
-```
-birdControlMode fly
-gravity 0.30–0.38
-jumpForce 8–11      ← allowed outside 30%; fly needs punch
-scrollSpeed 4.2–5.5 ← allowed a bit outside 30%
-birdSize 55–70  pillarGap 170–200  pillarSpacing 260–320
-```
-
-Bombs as GIF pillars: keep pillar GIF tight; `pillar2OnTop true` if bombs fall from the sky.
-
-**Political / hard challenge:**
-
-```
-flap, gravity 0.30–0.34, jumpForce 7–7.5, scrollSpeed 3.6–4.2
-pillarGap 150–170  pillarSpacing 250–280
-```
-
-Slightly mean, not sadistic. Put `HARD` or `Challenge` in the title only if it really is.
-
-**Story / dark:**
-
-Match the world. Underworld → darker `groundColor`. Chase → a bit more speed. Never break the apex/gap rules to be “edgy.”
+- **At least 2 days with an animated GIF** — bird, pillar or background. The engine keeps GIFs animated in-game (≤ 40 frames, ≤ 512 px sprites, ≤ 720 px backgrounds). A looping background (rain, fire, crowd, traffic) instantly makes a day feel alive.
+- **At least 1 day with `pillar2`** — two different obstacles alternating, or `pillar2OnTop: true` for a ceiling hazard (bombs, bats, ceiling fans, falling anvils).
+- **At least 1 weird-size day** (Giant or Tiny) — and pick art that reads at that size: Tiny needs a bold silhouette, Giant needs a sharp, high-res cutout.
+- The background should sell the archetype's mood: starfield for Moon/Hover, motion blur or a road for Speed Demon, a cramped street for Gauntlet.
 
 ### Colours
 
@@ -521,7 +488,7 @@ From the `flaplab-dailies` repo root, **per date**:
 3. `git add` **only** `dailies/YYYY-MM-DD/`
 4. Commit: `Add FlapLab daily YYYY-MM-DD`
 5. `git push origin main`
-6. Do not edit README, BOT.md, `do-not-use.md`, `evergreen.md`, or other dates.
+6. Do not edit README, BOT.md, `do-not-use.md`, `evergreen.md`, anything under `evergreen/`, or other dates.
 
 If push fails, fix and push before starting the next date. A local-only folder is invisible to the cron.
 
@@ -538,7 +505,7 @@ Try in order:
    - fun: only if you still have a meme hook — real craft/astronaut cutout + planet/flag + starfield, low-g; else borrow `recognisable`
    - recognisable: MLP / Portal core / Garfield / a game protagonist with matching biome pillars
    - meme/trending/political: if the trend is un-illustratable, take **another outside row** from the scout table (different gag). Do **not** ship a silent evergreen on perishable slots. If nothing outside works, **skip that date**.
-5. **Skip that date and continue the week.** Do not invent extra dates. Do not commit an opaque JPEG bird. Do not generate a “transparent” PNG that is actually a white rectangle.
+5. **Skip that date and continue the week.** Do not invent extra dates. Do not commit an opaque JPEG bird. Do not generate a “transparent” PNG that is actually a white rectangle. A skipped date is safe: the game automatically posts a hand-made package from `evergreen/` that morning — so never ship garbage just to fill a hole.
 
 Image generation: only as a last resort for a **simple silhouette** (countryball, loaf cat, baguette) with a true transparent background, single subject, no text. If the model cannot give real alpha, don’t use it.
 
@@ -548,7 +515,8 @@ Image generation: only as a last resort for a **simple silhouette** (countryball
 - [ ] Folder date is one of `D` … `D+6` (tomorrow through +6 Amsterdam), never today, never +7
 - [ ] Slot matches the **offset table** (or inspiration explains a deliberate switch)
 - [ ] If slot is `trending` / `meme` / `political`: `inspiration` has a **dated outside hook**; no evergreen filler
-- [ ] Title ≤ 80 chars, unique vs the other six this week **and** the last 14 days, starts with `FlapLab Daily — ` (caption energy, not generic game-name)
+- [ ] Title is the caption only (≤ 62 chars, no `FlapLab Daily` prefix or suffix), unique vs the other six this week **and** the last 14 days, names the subject in searchable words (caption energy, not generic game-name)
+- [ ] Archetype picked from section 6 and named in `inspiration`; this week has ≥ 6 different archetypes, no repeat on consecutive days, Classic ≤ 1
 - [ ] **Meme math** complete (face/logo × same-story antagonist × place photo × caption)
 - [ ] **0.3s meme test:** sprites alone would screenshot as a joke someone following the news/fandom gets
 - [ ] **Asset-first:** bird cutout existed before settings; failed cutout concepts were killed
@@ -559,9 +527,8 @@ Image generation: only as a last resort for a **simple silhouette** (countryball
 - [ ] `do-not-use.md` respected
 - [ ] Filenames safe and listed correctly in `game.json`
 - [ ] GIF pillars don’t explode across the whole frame
-- [ ] Apex 80–180 if flap; fly thrust inequality holds
-- [ ] Gap ~2.5× birdSize; spacing/speed ≥ 40 frames
-- [ ] Settings inside ±30% unless `fun` physics exception
+- [ ] Not impossible: flap apex 10–340; fly `jumpForce × 0.25 > gravity`; Needle / Tiny / Gauntlet use `pillarProportional: false`
+- [ ] Weekly quotas met by the end of the run: ≥ 2 extreme days, ≥ 1 floaty day, ≥ 1 hold-to-fly day, ≥ 2 GIF days, ≥ 1 `pillar2` day, ≥ 1 Giant/Tiny day
 - [ ] `slot` / `story` / `inspiration` / `repostHints` filled
 - [ ] Pushed to `main` before starting the next date
 
@@ -571,4 +538,4 @@ You are making a **viral meme** someone will play for 20 seconds, screenshot, an
 
 Optimise for: **a forced outside scout, instant cultural recognition, one joke, photo/logo-real art that survives alpha-crop, physics that sells the joke.**
 
-Do not optimise for: cute themed mini-games, cartoon clipart worlds, embedding scores, 20-meme lists, or a perfect forecast of Reddit. If you skipped the scout report or the perishable day has no dated outside hook, you are doing it wrong — even if it “plays fine.”
+Do not optimise for: cute themed mini-games, cartoon clipart worlds, seven days of identical physics, embedding scores, 20-meme lists, or a perfect forecast of Reddit. If you skipped the scout report or the perishable day has no dated outside hook, you are doing it wrong — even if it “plays fine.”

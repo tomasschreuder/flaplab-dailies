@@ -1,0 +1,24 @@
+{
+  "title": "Flappy Chicken: Chickens Can Fly Now",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 1.1,
+    "jumpForce": 7.2,
+    "scrollSpeed": 3.2,
+    "birdSize": 56,
+    "pillarGap": 160,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "birdControlMode": "flap",
+    "groundColor": "#7a5230",
+    "grassColor": "#5fbf3a"
+  },
+  "slot": "evergreen",
+  "story": "Why did the chicken cross the farm? To prove chickens can fly. Barely: every flap is a tiny panicked hop, so spam it.",
+  "inspiration": "Evergreen original pixel art (no IP). Posted automatically only when the dated folder for the day is missing or broken.",
+  "repostHints": [
+    "r/FlappyLab"
+  ]
+}

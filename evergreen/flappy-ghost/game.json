@@ -1,0 +1,24 @@
+{
+  "title": "Flappy Ghost: Haunted Graveyard Run",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.08,
+    "jumpForce": 3.6,
+    "scrollSpeed": 2.5,
+    "birdSize": 62,
+    "pillarGap": 175,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "birdControlMode": "flap",
+    "groundColor": "#3a2a3f",
+    "grassColor": "#4f6b3a"
+  },
+  "slot": "evergreen",
+  "story": "A very polite ghost is late for its own haunting. Ghosts barely feel gravity, so every flap drifts. The jack-o-lanterns have opinions.",
+  "inspiration": "Evergreen original pixel art (no IP). Posted automatically only when the dated folder for the day is missing or broken.",
+  "repostHints": [
+    "r/FlappyLab"
+  ]
+}

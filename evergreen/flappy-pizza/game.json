@@ -1,0 +1,24 @@
+{
+  "title": "Flappy Pizza: Tiny Slice, Big Speed",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.4,
+    "jumpForce": 6.4,
+    "scrollSpeed": 6,
+    "birdSize": 24,
+    "pillarGap": 60,
+    "pillarSpacing": 300,
+    "pillarProportional": false,
+    "birdControlMode": "flap",
+    "groundColor": "#8b3a2a",
+    "grassColor": "#e9a23b"
+  },
+  "slot": "evergreen",
+  "story": "One bite-sized slice escaped the delivery and is flying home to Italy at full speed. The gaps are tiny. So are you.",
+  "inspiration": "Evergreen original pixel art (no IP). Posted automatically only when the dated folder for the day is missing or broken.",
+  "repostHints": [
+    "r/FlappyLab"
+  ]
+}

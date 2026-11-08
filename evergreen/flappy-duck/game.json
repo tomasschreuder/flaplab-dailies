@@ -1,0 +1,24 @@
+{
+  "title": "Flappy Duck: The Shampoo Needle (HARD)",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.45,
+    "jumpForce": 6.6,
+    "scrollSpeed": 8,
+    "birdSize": 40,
+    "pillarGap": 64,
+    "pillarSpacing": 380,
+    "pillarProportional": false,
+    "birdControlMode": "flap",
+    "groundColor": "#8fb9d6",
+    "grassColor": "#e8f4ff"
+  },
+  "slot": "evergreen",
+  "story": "Bath time is over and the rubber duck refuses to leave. The shampoo bottles have left a duck-sized gap. Exactly duck-sized.",
+  "inspiration": "Evergreen original pixel art (no IP). Posted automatically only when the dated folder for the day is missing or broken.",
+  "repostHints": [
+    "r/FlappyLab"
+  ]
+}

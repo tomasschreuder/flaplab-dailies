@@ -1,0 +1,24 @@
+{
+  "title": "Flappy UFO: Downtown Abduction",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.12,
+    "jumpForce": 3.2,
+    "scrollSpeed": 2.6,
+    "birdSize": 60,
+    "pillarGap": 180,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "birdControlMode": "fly",
+    "groundColor": "#2a2a35",
+    "grassColor": "#4a4a5a"
+  },
+  "slot": "evergreen",
+  "story": "You came in peace. The skyscrapers did not. Anti-gravity drive engaged: hold to hover, let go to drift down.",
+  "inspiration": "Evergreen original pixel art (no IP). Posted automatically only when the dated folder for the day is missing or broken.",
+  "repostHints": [
+    "r/FlappyLab"
+  ]
+}

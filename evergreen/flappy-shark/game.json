@@ -1,0 +1,24 @@
+{
+  "title": "Flappy Shark: Way Too Big For The Reef",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.26,
+    "jumpForce": 6.8,
+    "scrollSpeed": 2.8,
+    "birdSize": 150,
+    "pillarGap": 280,
+    "pillarSpacing": 340,
+    "pillarProportional": true,
+    "birdControlMode": "flap",
+    "groundColor": "#c9b27a",
+    "grassColor": "#e6d39a"
+  },
+  "slot": "evergreen",
+  "story": "A shark skipped its dentist appointment and grew. A lot. It barely fits through the coral. Slow, heavy, enormous.",
+  "inspiration": "Evergreen original pixel art (no IP). Posted automatically only when the dated folder for the day is missing or broken.",
+  "repostHints": [
+    "r/FlappyLab"
+  ]
+}

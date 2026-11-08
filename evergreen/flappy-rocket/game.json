@@ -1,0 +1,24 @@
+{
+  "title": "Flappy Rocket: Asteroid Alley (Afterburner)",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.5,
+    "jumpForce": 10,
+    "scrollSpeed": 7.5,
+    "birdSize": 52,
+    "pillarGap": 170,
+    "pillarSpacing": 420,
+    "pillarProportional": true,
+    "birdControlMode": "fly",
+    "groundColor": "#3b3355",
+    "grassColor": "#6b6488"
+  },
+  "slot": "evergreen",
+  "story": "Houston, the asteroid belt is way denser than the brochure said, and the throttle is stuck on full. Hold to boost.",
+  "inspiration": "Evergreen original pixel art (no IP). Posted automatically only when the dated folder for the day is missing or broken.",
+  "repostHints": [
+    "r/FlappyLab"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Flappy Santa: Chimney Rush",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.32,
+    "jumpForce": 7.4,
+    "scrollSpeed": 2.8,
+    "birdSize": 56,
+    "pillarGap": 185,
+    "pillarSpacing": 150,
+    "pillarProportional": false,
+    "birdControlMode": "flap",
+    "groundColor": "#cfd9ea",
+    "grassColor": "#ffffff"
+  },
+  "slot": "evergreen",
+  "story": "The sleigh broke down on Christmas Eve, so Santa is flapping it himself. This town has a chimney every three feet.",
+  "inspiration": "Evergreen original pixel art (no IP). Posted automatically only when the dated folder for the day is missing or broken.",
+  "repostHints": [
+    "r/FlappyLab"
+  ]
+}

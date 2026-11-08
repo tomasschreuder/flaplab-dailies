@@ -1,0 +1,24 @@
+{
+  "title": "Flappy Cat: The Cardboard Box Tower",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.32,
+    "jumpForce": 7.4,
+    "scrollSpeed": 3.4,
+    "birdSize": 64,
+    "pillarGap": 182,
+    "pillarSpacing": 290,
+    "pillarProportional": true,
+    "birdControlMode": "flap",
+    "groundColor": "#7a4f2e",
+    "grassColor": "#b07a4a"
+  },
+  "slot": "evergreen",
+  "story": "You knocked one (1) glass off the counter. Now the cardboard boxes have formed a tower. Flap through it.",
+  "inspiration": "Evergreen original pixel art (no IP). Posted automatically only when the dated folder for the day is missing or broken.",
+  "repostHints": [
+    "r/FlappyLab"
+  ]
+}

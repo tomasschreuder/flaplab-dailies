@@ -1,5 +1,7 @@
 # Evergreen fallbacks
 
+> Not the same as the `evergreen/` **folder**: that folder holds complete packages the game posts automatically when a date folder is missing. This file is a list of **concept ideas for the bot**. Bots never edit `evergreen/`.
+
 Lives at the **root of `flaplab-dailies`**. Use these when today’s **outside** scout has no shippable art. Still search for **transparent** bird + pillar; these are concepts, not bundled files.
 
 Prefer a live outside joke when assets exist. These keep the **assigned slot** honest instead of shipping a hollow trend.
