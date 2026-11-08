@@ -1,0 +1,23 @@
+{
+  "title": "Flappy Chonk: Absolute Unit Cat (Giant)",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.25,
+    "jumpForce": 6.6,
+    "scrollSpeed": 2.7,
+    "birdSize": 150,
+    "pillarGap": 282,
+    "pillarSpacing": 360,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#5b5550",
+    "grassColor": "#8f8577"
+  },
+  "slot": "cat",
+  "story": "You are an absolute unit of a Persian cat and you have decided to fly through the living room. The cat tree was built for a normal cat. You are not a normal cat. You barely fit between the scratching posts, and you are judging all of them.",
+  "inspiration": "Chonk-cat week on X: No Context Cats' one-word 'Chonk' post of a sprawled tabby and the 'so many thoughts so little brain' cat photos trending in Pets (X Trending 2117985852353589423 and 2117814161677926703, 4 Nov 2026). Archetype: Giant — 150px bird, 282 gap, slow 2.7 scroll: the cat barely fits. Bird = 'Watkin Fat Cat' Persian (Wikimedia Commons) cut with rembg; pillar = sisal scratching-post column from Commons 'XXL 4 Stamm Kratzbaum von CATHOME' cut with rembg plus a carpeted platform cap; sky = Commons cozy living room photo.",
+  "repostHints": ["r/Chonkers", "r/cats", "r/absoluteunit", "r/aww", "r/FlappyLab"]
+}
