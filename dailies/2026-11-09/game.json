@@ -1,0 +1,23 @@
+{
+  "title": "Flappy Brobbey: He Went Down Easy",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 1.08,
+    "jumpForce": 7.3,
+    "scrollSpeed": 3.2,
+    "birdSize": 60,
+    "pillarGap": 166,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#24521f",
+    "grassColor": "#3fa53a"
+  },
+  "slot": "trending",
+  "story": "You are Brian Brobbey and the slightest touch sends you to the floor. Sunderland just beat Chelsea 1-0 off your penalty, Chelsea fans swear you tripped yourself, and now every VAR monitor in the Stadium of Light wants a second look. Spam-tap to stay upright.",
+  "inspiration": "Sunderland 1-0 Chelsea at the Stadium of Light, 8 Nov 2026: Le Fee's 36th-minute penalty after Brian Brobbey went down under Levi Colwill; Chelsea fans insist Brobbey tripped himself and VAR denied Palmer a penalty (X Trending 2119438237290926585, 8 Nov 2026; Brobbey/Colwill/Sunderland trending worldwide). Archetype: Twitchy — gravity 1.08 so he hits the deck the instant you stop tapping (apex ~25px). Brobbey portrait (Wikimedia Commons, GAE - Ajax - 52788522258) cut with rembg, tilted mid-fall; VAR monitor (Commons 'VAR by BISO0074') masked onto a pitchside pole; Stadium of Light exterior (geograph 5813935, Commons).",
+  "repostHints": ["r/soccer", "r/PremierLeague", "r/safc", "r/chelseafc", "r/FlappyLab"]
+}
