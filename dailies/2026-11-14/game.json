@@ -1,0 +1,23 @@
+{
+  "title": "Flappy Flamingo: Albania's Flamingo Revolution",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.gif",
+  "settings": {
+    "gravity": 0.09,
+    "jumpForce": 3.5,
+    "scrollSpeed": 2.5,
+    "birdSize": 62,
+    "pillarGap": 188,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#3d0a0a",
+    "grassColor": "#8c1515"
+  },
+  "slot": "country",
+  "story": "You are an Albanian flamingo, and someone wants to build a luxury resort on your lagoon. The cranes are already going up. Glide through them under the double-headed eagle: the whole country has named its protest movement after you.",
+  "inspiration": "Albania's 'Flamingo Revolution': protests that began over a luxury coastal resort on protected flamingo habitat (linked to Jared Kushner) escalated again in Tirana on 7 Nov 2026 with water cannons and calls for PM Edi Rama to resign (X Trending 2119125832195322015, 7 Nov 2026; background 2113390836243386548, 24 Oct 2026). Archetype: Moon Gravity — gravity 0.09, jump 3.5 (apex ~68px), slow 2.5 scroll: a flamingo glide. Bird = greater flamingo in flight (Commons 'Phoenicopterus roseus flight (Walvis bay)'), cut with rembg; pillar = tower crane mast colour-keyed from Commons 'Red Tower Crane - Knoxville' (recoloured toward construction yellow); animated background = waving, dimmed Flag of Albania (Commons SVG) as a 12-frame GIF.",
+  "repostHints": ["r/albania", "r/europe", "r/polandball", "r/flamingo", "r/FlappyLab"]
+}
