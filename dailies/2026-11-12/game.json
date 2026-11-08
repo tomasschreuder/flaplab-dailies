@@ -1,0 +1,24 @@
+{
+  "title": "Flappy GTA 6: Clear 212GB Before Launch Day",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "pillar2": "pillar2.png",
+  "settings": {
+    "gravity": 0.34,
+    "jumpForce": 7.0,
+    "scrollSpeed": 2.7,
+    "birdSize": 56,
+    "pillarGap": 188,
+    "pillarSpacing": 152,
+    "pillarProportional": false,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#3b2a4a",
+    "grassColor": "#e0559a"
+  },
+  "slot": "recognisable",
+  "story": "You are the Grand Theft Auto VI logo and you need 212GB of space before November 19. Every PS5 and Xbox Series X in Leonida is lined up shoulder to shoulder, already full of Call of Duty. Squeeze through the console queue under the Vice City sunset.",
+  "inspiration": "GTA VI launches 19 Nov 2026 on PS5 and Xbox Series X|S; pre-load opens 9-10 Nov with a ~210GB download, and players are clearing drives (X Trending 2118478230319694260, 7 Nov 2026; Rockstar screenshot drop 2118444761556123977, 6 Nov 2026). Archetype: Gauntlet — spacing 152, proportional off, slow 2.7 scroll: consoles packed shoulder to shoulder. pillar2 alternates PS5 and Xbox Series X. Bird = GTA VI logo (Commons SVG render); PS5 and Xbox Series X from Commons transparent-background photos (controllers cropped out); Miami sunset skyline (Commons 'Miami Sunset (45863661094)') as Vice City.",
+  "repostHints": ["r/GTA6", "r/GTA", "r/gaming", "r/PS5", "r/FlappyLab"]
+}
