@@ -1,0 +1,23 @@
+{
+  "title": "Flappy Robert Pattinson: Shaken, Not Sparkled",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 1.06,
+    "jumpForce": 7.3,
+    "scrollSpeed": 3.2,
+    "birdSize": 64,
+    "pillarGap": 166,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#0b0b0d",
+    "grassColor": "#26382a"
+  },
+  "slot": "meme",
+  "story": "Edward Cullen just got his licence to kill. Flap the freshly-announced, still-sparkling new 007 through a gun barrel full of Forks forest without spilling a single dry martini.",
+  "inspiration": "Robert Pattinson officially named the next James Bond by Amazon MGM / 007 on 2026-11-16 (X trends: Bond, Edward Cullen, Twilight, Daniel Craig; https://x.com/i/trending/2122345414871445745). Timelines flooded with Edward-Cullen-as-007 and Batman-and-Bond memes. Bird: Pattinson in a tux (Cannes 2012, Wikimedia Commons) paled and sparkled; pillars: dry martinis; sky: 007 gun barrel framing a misty Forks-style forest. Archetype: Twitchy (apex ~25) because he's shaken, not stirred. Rolling window needed a second extreme day after Brick/Giant and floaty Moon/Hover days.",
+  "repostHints": ["r/JamesBond", "r/twilight", "r/memes", "r/movies", "r/FlappyLab"]
+}
