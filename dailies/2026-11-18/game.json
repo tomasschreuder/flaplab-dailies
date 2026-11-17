@@ -1,0 +1,23 @@
+{
+  "title": "Flappy Starship: Don't Get Caught By Mechazilla",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 0.48,
+    "jumpForce": 10.4,
+    "scrollSpeed": 7.4,
+    "birdSize": 60,
+    "pillarGap": 176,
+    "pillarSpacing": 430,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "fly",
+    "groundColor": "#8a7d5c",
+    "grassColor": "#5f7a3a"
+  },
+  "slot": "fun",
+  "story": "Mechazilla just plucked a Starship out of the sky with its chopsticks for the first time. You are the next ship off the line and you would very much like to stay free. Hold to burn through a forest of Starbase catch towers before the arms close.",
+  "inspiration": "SpaceX Starship Flight 15 (2026-11-13/14): Ship 42 became the first upper stage caught by the Mechazilla tower arms at Starbase, Texas; X trending 2026-11-14..16 (https://x.com/i/trending/2122238925204803607, catch-vs-healthcare debate and Musk debris-to-catch photo). Bird: Starship SN16 photo (Wikimedia Commons) cut out and pitched nose-forward; pillars: Starbase launch/catch tower (Wikimedia 'Tower and Booster'); sky: Boca Chica Starbase site photo. Archetype: Afterburner (hold-to-fly at speed) because it's a rocket. Rolling 7-day window (11-12..11-18) only had one extreme day (Twitchy 11-17), so this adds a second extreme + another hold-to-fly. Other candidates scouted: Apple iCloud/Apple Pay outage 2026-11-17, The Game Awards 2026 nominations reveal 2026-11-17 (GTA VI franchise blocked by 14-day repeat).",
+  "repostHints": ["r/SpaceXMasterrace", "r/spacex", "r/space", "r/gaming", "r/FlappyLab"]
+}
