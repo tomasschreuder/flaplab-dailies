@@ -1,0 +1,24 @@
+{
+  "title": "Flappy Dumbledore: DUMBLEDORE! DUMBLEDORE! DUMBLEDORE!",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.gif",
+  "pillar2": "pillar2.png",
+  "settings": {
+    "gravity": 0.3,
+    "jumpForce": 6.9,
+    "scrollSpeed": 2.7,
+    "birdSize": 56,
+    "pillarGap": 190,
+    "pillarSpacing": 150,
+    "pillarProportional": false,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#4a3b2c",
+    "grassColor": "#b08a3e"
+  },
+  "slot": "recognisable",
+  "story": "The whole Great Hall is banging the tables chanting your name like it's a football match. You are John Lithgow's Dumbledore. Squeeze through the wall of Gryffindor and Slytherin banners before somebody asks if you're a bit mad.",
+  "inspiration": "HBO's first Harry Potter series clip (aired 2026-11-14, memes through 11-16..18) shows students slamming tables and chanting 'Dumbledore!' as John Lithgow's headmaster arrives; fans called it cringe / 'Temu Harry Potter'. Bird = Lithgow Dumbledore cutout from the HBO still, sky = the clip's chanting-Harry frame as a pulsing 4-frame GIF, pillars = alternating Gryffindor/Slytherin house banners (pillar2). Archetype: Gauntlet — banners packed shoulder to shoulder like the chanting crowd. Rolling window: adds the GIF + pillar2 days the last 6 dailies lacked.",
+  "repostHints": ["r/harrypotter", "r/television", "r/HBOMax", "r/FlappyLab"]
+}
