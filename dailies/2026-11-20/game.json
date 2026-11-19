@@ -1,0 +1,24 @@
+{
+  "title": "Flappy Bread Cat: One Loaf, Zero Aerodynamics",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.gif",
+  "pillar2": "pillar2.png",
+  "settings": {
+    "gravity": 0.95,
+    "jumpForce": 13.5,
+    "scrollSpeed": 3.3,
+    "birdSize": 72,
+    "pillarGap": 196,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#8a5a2b",
+    "grassColor": "#f3ead8"
+  },
+  "slot": "cat",
+  "story": "You are the Bread Cat: a cat loafed so hard someone dusted you with flour. Loaves are not built to fly, so every flap is a violent hop past baguettes and rolling pins before the bakery oven gets you.",
+  "inspiration": "Bread Cat GIF (cat curled into a loaf, hands dusting it with flour) posted by @hardestgifs on X on 2026-11-16, ~11.5M views by 2026-11-18 and spreading as a WhatsApp sticker (MemeStand #1 on 2026-11-18). Archetype: Brick — gravity 0.95, jump 13.5 (apex ~96), because a loaf of bread should not fly. Bird: Wikimedia Commons 'Cute cat in loaf position' cut out with true alpha, warmed to crust tones and flour-dusted on top. Pillars: crossed baguettes (Commons 'Baguettes - stonesoup', flipped so tips face the gap) alternating with a rolling pin (pillar2). Sky: real bakery oven + bread racks photo with an animated falling-flour GIF loop. Rolling 7-day: adds a Brick extreme day, a pillar2 day and a GIF day after Moon/Hover/Twitchy/Afterburner/Gauntlet.",
+  "repostHints": ["r/cats", "r/catloaf", "r/Breadit", "r/aww", "r/FlappyLab"]
+}
