@@ -1,0 +1,24 @@
+{
+  "title": "Flappy British Sausage: Brussels Lets It Back In (Giant)",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "pillar2": "pillar2.png",
+  "settings": {
+    "gravity": 0.27,
+    "jumpForce": 7,
+    "scrollSpeed": 2.8,
+    "birdSize": 145,
+    "pillarGap": 275,
+    "pillarSpacing": 370,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#5c5c5c",
+    "grassColor": "#003399"
+  },
+  "slot": "country",
+  "story": "The UK-EU summit just let British sausages back into Europe with less paperwork. You are one absolute unit of a Union Jack banger squeezing past EU flagpoles at the Berlaymont while Nigel Farage flaps his arms trying to stop you.",
+  "inspiration": "UK-EU 'reset' summit in Brussels on 2026-11-20: PM Andy Burnham signed deals cutting border checks and certificates for British food exports (sausages and shellfish named) from 2028, plus youth mobility, while Nigel Farage called him naive and warned of a Brexit betrayal (X trending 2026-11-19/20). Echoes the 2021 Brexit 'sausage war' meme. Archetype: Giant: bird 145, gap 275, gravity 0.27, jump 7 (apex ~91), speed 2.8, because the banger barely fits through Brussels. Bird: Wikimedia Commons 'Cooked Newmarket Sausage' on a fork, cut out with true alpha, with a Union Jack cocktail flag. Pillar: real EU flag on a flagpole outside the Berlaymont (Commons 'European Union Flags 2'). Pillar2: Nigel Farage, arms out, white suit (Commons 'Nigel Farage stage June 2024'). Sky: Berlaymont photo (Commons). Rolling 7-day window: adds the missing Giant day plus another pillar2 day after Hover/Twitchy/Afterburner/Gauntlet/Brick.",
+  "repostHints": ["r/polandball", "r/unitedkingdom", "r/europe", "r/CasualUK", "r/FlappyLab"]
+}
