@@ -1,0 +1,24 @@
+{
+  "title": "Flappy Fiona the Hippo: Heaven Has a No-Hats Rule",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "pillar2": "pillar2.png",
+  "settings": {
+    "gravity": 0.08,
+    "jumpForce": 3.4,
+    "scrollSpeed": 2.4,
+    "birdSize": 76,
+    "pillarGap": 196,
+    "pillarSpacing": 320,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#2e1a47",
+    "grassColor": "#8e44ad"
+  },
+  "slot": "story",
+  "story": "Fiona the hippo floats up to hippo heaven over a Cincinnati lit purple for her. One rule up here: no knit hats. Unfortunately, the hats followed her.",
+  "inspiration": "Fiona, the Cincinnati Zoo hippo, died 2026-11-19 after swallowing a knit hat flung into her habitat; necropsy news 2026-11-20 (AP, cincinnatizoo.org) and bridges/stadiums lit purple overnight; Virlo's top pop-culture story of week 47 ('Fiona the hippo death & zoo memes afterlife energy', 30M views, 2026-11-21). Dark-but-loving fable: bird = Fiona (zoo/ABC News photo, rembg cutout) with a halo, pillars = stacked knit beanies (purple pom-pom / black ribbed), sky = Roebling Bridge + Cincinnati skyline graded purple with heaven rays. Archetype: Moon Gravity — a 3,000-lb hippo drifting to heaven; fills the rolling window's missing floaty day. Story slot (ISO week 47 odd).",
+  "repostHints": ["r/cincinnati", "r/aww", "r/hippos", "r/FlappyLab"]
+}
