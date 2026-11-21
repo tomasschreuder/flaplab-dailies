@@ -1,0 +1,30 @@
+{
+  "title": "Flappy Kim Jong Un: I'll Just Sit This Run Out (Speedrun)",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "pillar2": "pillar2.png",
+  "settings": {
+    "gravity": 0.38,
+    "jumpForce": 6.9,
+    "scrollSpeed": 8.6,
+    "birdSize": 60,
+    "pillarGap": 170,
+    "pillarSpacing": 410,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#b8c6d1",
+    "grassColor": "#2f4a32"
+  },
+  "slot": "trending",
+  "story": "You are Kim Jong Un, planted in an ornate armchair at the bottom of the Samjiyon ski run, sunglasses on. Your daughter is already halfway down the mountain. Try not to leave the chair.",
+  "inspiration": "KCNA photos released 2026-11-17 of Kim Jong Un's 15\u201316 Nov inspection of the Samjiyon ski resort near the Chinese border: he sits in an ornate armchair on the snow in sunglasses while his daughter Ju Ae skis in white (AFP, Fox, PetaPixel 2026-11-17/18; https://petapixel.com/2026/11/18/north-korea-releases-outrageous-propaganda-photos-of-kim-jong-un-and-daughter/). Bird: KCNA still of Kim in the cream throne, cut out with rembg + a manual chair mask so the beige upholstery survived the snow. Pillars: alternating red and blue giant-slalom gates (Wikimedia, Milano Cortina 2026). Sky: the actual Samjiyon ski run and tree line from the same KCNA visit. Ju Ae is named in the story but is not a sprite. Archetype: Speed Demon \u2014 the mountain rips past while he stays in the chair. Rolling 7-day window (11-17 Twitchy, 11-18 Afterburner, 11-19 Gauntlet, 11-20 Brick, 11-21 Giant, 11-22 Moon Gravity) needed a fast flap day; Speed Demon last appeared 11-10.",
+  "repostHints": [
+    "r/northkorea",
+    "r/worldnews",
+    "r/pics",
+    "r/propagandaposters",
+    "r/FlappyLab"
+  ]
+}
