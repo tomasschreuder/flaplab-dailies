@@ -1,0 +1,28 @@
+{
+  "title": "Flappy Oomf: I'm So Hungry I Could Eat An Oomf",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.png",
+  "settings": {
+    "gravity": 1.14,
+    "jumpForce": 7.4,
+    "scrollSpeed": 3.3,
+    "birdSize": 62,
+    "pillarGap": 160,
+    "pillarSpacing": 295,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#cfc8b4",
+    "grassColor": "#1c7ac8"
+  },
+  "slot": "meme",
+  "story": "You are an Oomf! porridge pot on a supermarket shelf, and the whole timeline is so hungry it could eat an oomf. The spoons are coming. Panic-hop between them before someone has you for breakfast.",
+  "inspiration": "@turbochis on X, 2026-11-22: 'im so hungry i could eat an oomf' over a photo of Oomf! protein porridge pots on a UK supermarket shelf (85p), 142k likes / 1.2M views in a day, quote chain of 'found a few oomfs' shelf pics through 11-23 (https://x.com/i/status/2124377976653681044; X story https://x.com/i/trending/2124776598800937000). Joke: 'oomf' = one of my followers, so you ARE the oomf being hunted. Bird: the front Oomf! pot cut out of the actual meme photo (rembg isnet + largest-component cleanup, white sticker outline). Pillar: stainless teaspoon cutout, bowl toward the gap so spoons dive in from above and scoop from below (Wikimedia Commons File:Teaspoon.jpg, S Sepp, CC BY-SA 3.0). Sky: the meme's own shelf photo, blurred and dimmed. Archetype: Twitchy — tiny panicked hops of a snack that knows it is about to be eaten. Rolling 7-day window (11-18 Afterburner, 11-19 Gauntlet, 11-20 Brick, 11-21 Giant, 11-22 Moon Gravity, 11-23 Speed Demon) gets a 7th distinct archetype and a third extreme day; Twitchy last used 11-17.",
+  "repostHints": [
+    "r/memes",
+    "r/me_irl",
+    "r/CasualUK",
+    "r/FlappyLab"
+  ]
+}
