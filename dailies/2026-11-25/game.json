@@ -1,0 +1,23 @@
+{
+  "title": "Flappy Pardoned Turkey: Freedom Is Leaving (Hold To Fly)",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.gif",
+  "settings": {
+    "gravity": 0.52,
+    "jumpForce": 10.8,
+    "scrollSpeed": 7.8,
+    "birdSize": 54,
+    "pillarGap": 172,
+    "pillarSpacing": 420,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "fly",
+    "groundColor": "#2f4f24",
+    "grassColor": "#5a9a3c"
+  },
+  "slot": "fun",
+  "story": "You are Freedom, the turkey the President just pardoned on the White House's brand-new helipad. A pardon is only paper and Thanksgiving is Thursday, so hold to fly and get off the South Lawn before anyone with a carving fork changes their mind.",
+  "inspiration": "79th National Thanksgiving Turkey Pardon, 2026-11-24 2 p.m. ET: Trump pardons West Virginia turkeys Freedom and Feathers, moved to the new White House helipad for the first time, retiring to Texas A&M (X story https://x.com/i/trending/2125259173227290771 and https://x.com/i/trending/2124543525845184862, 24 Nov 2026), with 'Thanksgiving' trending worldwide (282k posts) two days before the holiday. Joke: the pardoned bird bolting before the carving set catches up. Bird: fanned white pardon turkey cut out of the White House photo 'President Trump Pardons the National Thanksgiving Turkey' (Wikimedia Commons, public domain, rembg isnet + largest-component cleanup). Pillars: matching Gorham 1900 carving fork + knife (Cooper Hewitt via Wikimedia Commons, public domain), tines/blade toward the gap. Sky: animated GIF of the South Lawn with the presidential-seal helipad (Wikimedia Commons '2026-10-12 White House South Lawn from the Washington Monument', G. Edward Johnson, CC BY 4.0), softened, with shed turkey feathers fluttering in a loop. Archetype: Afterburner (hold-to-fly at speed, gravity 0.52 / thrust 10.8 / speed 7.8) because a 40-pound turkey only flies when its life depends on it. Rolling window 11-19..11-25 (Gauntlet, Brick, Giant, Moon Gravity, Speed Demon, Twitchy) had no hold-to-fly day and only one GIF day; this adds both. Other candidates: jellyfish UAP swarm filmed from a plane window (X 2124580044706333075, 22 Nov; Hover), Sandbach mayor's bike-stair channel vs Starship catch (X 2124407072364085555, 23 Nov; Starship repeats 11-18).",
+  "repostHints": ["r/Thanksgiving", "r/funny", "r/gaming", "r/FlappyLab"]
+}
