@@ -1,0 +1,23 @@
+{
+  "title": "Flappy Cyclops: To Me, My X-Men!",
+  "bird": "bird.png",
+  "pillar": "pillar.png",
+  "background": "sky.gif",
+  "settings": {
+    "gravity": 0.31,
+    "jumpForce": 7.3,
+    "scrollSpeed": 3.3,
+    "birdSize": 70,
+    "pillarGap": 186,
+    "pillarSpacing": 300,
+    "pillarProportional": true,
+    "pillar2OnTop": false,
+    "birdControlMode": "flap",
+    "groundColor": "#2e261f",
+    "grassColor": "#7a6248"
+  },
+  "slot": "recognisable",
+  "story": "You are James Marsden's Cyclops. You touched your visor, yelled \"To me, my X-Men!\" and the trailer cut to the Avengers. Now it's just you and Doctor Doom's Sentinels under the brown gloop sky. Old-school Fox-era physics, old-school hero: flap through.",
+  "inspiration": "Avengers: Doomsday final trailer (Marvel, 2026-11-23): @DiscussingFilm's 21-second clip of Cyclops touching his visor and shouting 'To me, my X-Men!' (https://x.com/i/status/2124867444644950098, posted 2026-11-23 14:07 UTC, ~30.6M views / 202k likes) outran the trailer itself; memes through 11-24 ('Cyclops touched his visor and my 42-year-old ass started looking for a wall to run through', 'he said X-Men and cut to the Avengers', the 'brown gloop' sky jokes; Kotaku/ThunderDungeon/LA Globe 11-23..24) and Marsden's EW 'very limited vision' visor interview (2026-11-25). Bird = Marsden's Cyclops cut from that clip's visor-touch frame (rembg birefnet-general-lite). Sky = 14-frame looping GIF of the clip's own churning brown clouds. Pillars = Sentinels (the trailer's battle), Marvel vs. Capcom 3 Sentinel artwork from the MvC wiki, raised fist toward the gap. Archetype: Classic (gravity 0.31 / jump 7.3 / speed 3.3, apex ~86) - the Fox-era 2000 X-Men are back, so the old normal physics is the joke; rolling 7-day window 11-20..11-26 now has 7 different archetypes (Brick, Giant, Moon Gravity, Speed Demon, Twitchy, Afterburner, Classic) and a third GIF day. Other candidates: Kelsey Grammer's feral Beast 'looks like Sulley' (EW, 11-25), Mario Kart World 1.9 update (11-24).",
+  "repostHints": ["r/xmen", "r/marvelstudios", "r/MarvelStudiosSpoilers", "r/FlappyLab"]
+}
